@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { getCacheStats } from '../api'
 
 function StatRow({ label, value, color }) {
   return (
@@ -21,10 +22,10 @@ export default function CachePanel() {
 
   const load = async () => {
     setLoading(true)
+    setError(null)
     try {
-      const r = await fetch('/api/cache/stats')
-      if (!r.ok) throw new Error(`HTTP ${r.status}`)
-      setData(await r.json())
+      const stats = await getCacheStats()
+      setData(stats)
     } catch (e) { setError(e.message) }
     finally { setLoading(false) }
   }

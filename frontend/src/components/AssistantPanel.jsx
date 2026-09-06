@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { sendAssistantChat } from '../api'
 
 export default function AssistantPanel() {
   const [message, setMessage] = useState('Write a Python function to check whether a number is prime.')
@@ -51,39 +52,11 @@ export default function AssistantPanel() {
     const updatedHistory = [...conversation, { role: 'user', content: queryText }]
 
     try {
-      // Try Vite proxy /api/assistant/chat first, fallback to Flask port 5000 if needed
-      const headers = {
-        'Content-Type': 'application/json',
-        'Authorization': 'Bearer adbon-sec-key-2026-demo',
-      }
-
-      let res = await fetch('/api/assistant/chat', {
-        method: 'POST',
-        headers,
-        body: JSON.stringify({
-          message: queryText,
-          conversation: conversation.slice(-10),
-          target_quality: 0.76,
-        }),
+      const data = await sendAssistantChat({
+        message: queryText,
+        conversation: conversation.slice(-10),
+        target_quality: 0.76,
       })
-
-      if (!res.ok && res.status === 404) {
-        // Fallback directly to Flask gateway if proxy didn't catch
-        res = await fetch('http://127.0.0.1:5000/api/assistant/chat', {
-          method: 'POST',
-          headers,
-          body: JSON.stringify({
-            message: queryText,
-            conversation: conversation.slice(-10),
-            target_quality: 0.76,
-          }),
-        })
-      }
-
-      const data = await res.json()
-      if (!res.ok) {
-        throw new Error(data.message || data.error || `HTTP error ${res.status}`)
-      }
 
       setCurrentResult(data)
       setConversation([...updatedHistory, { role: 'assistant', content: data.answer }])

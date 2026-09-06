@@ -220,6 +220,7 @@ def _build_route_response(query: str, report: dict) -> RouteResponse:
 # Endpoints
 # ---------------------------------------------------------------------------
 @app.get("/health", tags=["System"])
+@app.get("/api/health", tags=["System"])
 def health():
     """Service liveness probe."""
     return {
@@ -235,6 +236,7 @@ def health():
 
 
 @app.get("/cache/stats", tags=["Cache"])
+@app.get("/api/cache/stats", tags=["Cache"])
 def cache_stats():
     """Return live statistics for both semantic cache and prompt-cache layers."""
     pc = _gateway.prompt_cache.get_stats()
@@ -294,6 +296,7 @@ def assistant_chat(
 MAX_FILE_SIZE_BYTES = 10 * 1024 * 1024  # 10 MB Limit
 
 @app.post("/route", response_model=RouteResponse, tags=["Gateway"])
+@app.post("/api/route", response_model=RouteResponse, tags=["Gateway"])
 def route_query(request: RouteRequest):
     """
     Route a query through the AD-BoN multimodal gateway.
@@ -414,6 +417,7 @@ def openai_chat_completions(request: ChatCompletionRequest):
 
 
 @app.get("/benchmark", tags=["Evaluation"])
+@app.get("/api/benchmark", tags=["Evaluation"])
 def run_benchmark():
     """
     Run the full Before/After benchmark suite and return structured results

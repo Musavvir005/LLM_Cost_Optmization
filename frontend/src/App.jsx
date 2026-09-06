@@ -5,6 +5,7 @@ import ResultPanel from './components/ResultPanel'
 import BenchmarkPanel from './components/BenchmarkPanel'
 import CachePanel from './components/CachePanel'
 import HealthPanel from './components/HealthPanel'
+import { checkHealth, routeQuery } from './api'
 import './index.css'
 
 const NAV = [
@@ -51,8 +52,8 @@ export default function App() {
   useEffect(() => {
     const check = async () => {
       try {
-        const r = await fetch('/api/health')
-        setOnline(r.ok)
+        const data = await checkHealth()
+        setOnline(data?.status === 'ok' || Boolean(data))
       } catch { setOnline(false) }
     }
     check()
@@ -64,15 +65,7 @@ export default function App() {
     setLoading(true)
     setResult(null)
     try {
-      const r = await fetch('/api/route', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': 'Bearer adbon-sec-key-2026-demo'
-        },
-        body: JSON.stringify(payload),
-      })
-      const data = await r.json()
+      const data = await routeQuery(payload)
       setResult(data)
       setActiveTab('route')
     } catch (e) {

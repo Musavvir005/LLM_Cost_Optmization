@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react'
+import { sendAssistantChat } from '../api'
 
 const BTN_SIZE = 52          // circle diameter in px
 const CHAT_W  = 440
@@ -98,19 +99,11 @@ export default function FloatingAssistant() {
     const updatedHistory = [...conversation, { role: 'user', content: queryText }]
     setConversation(updatedHistory); setMessage('')
     try {
-      const headers = { 'Content-Type': 'application/json', 'Authorization': 'Bearer adbon-sec-key-2026-demo' }
-      let res = await fetch('/api/assistant/chat', {
-        method: 'POST', headers,
-        body: JSON.stringify({ message: queryText, conversation: conversation.slice(-10), target_quality: 0.76 }),
+      const data = await sendAssistantChat({
+        message: queryText,
+        conversation: conversation.slice(-10),
+        target_quality: 0.76,
       })
-      if (!res.ok && res.status === 404) {
-        res = await fetch('http://127.0.0.1:5000/api/assistant/chat', {
-          method: 'POST', headers,
-          body: JSON.stringify({ message: queryText, conversation: conversation.slice(-10), target_quality: 0.76 }),
-        })
-      }
-      const data = await res.json()
-      if (!res.ok) throw new Error(data.message || data.error || `HTTP error ${res.status}`)
       setCurrentResult(data)
       setConversation([...updatedHistory, { role: 'assistant', content: data.answer, routing: data.routing, cost: data.cost, performance: data.performance, cache: data.cache }])
     } catch (err) {

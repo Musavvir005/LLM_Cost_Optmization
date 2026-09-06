@@ -1,4 +1,5 @@
 import React, { useState, useCallback } from 'react'
+import { runBenchmark } from '../api'
 
 const TIER_COLOR = {
   junior: 'var(--tier-junior)',
@@ -55,9 +56,8 @@ export default function BenchmarkPanel() {
   const run = useCallback(async () => {
     setLoading(true); setError(null)
     try {
-      const r = await fetch('/api/benchmark')
-      if (!r.ok) throw new Error(`HTTP ${r.status}`)
-      setData(await r.json())
+      const benchmarkData = await runBenchmark()
+      setData(benchmarkData)
     } catch (e) { setError(e.message) }
     finally { setLoading(false) }
   }, [])

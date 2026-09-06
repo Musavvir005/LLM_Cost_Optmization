@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { checkHealth, API_BASE_URL } from '../api'
 
 export default function HealthPanel() {
   const [data,    setData]    = useState(null)
@@ -7,10 +8,10 @@ export default function HealthPanel() {
 
   const load = async () => {
     setLoading(true)
+    setError(null)
     try {
-      const r = await fetch('/api/health')
-      if (!r.ok) throw new Error(`HTTP ${r.status}`)
-      setData(await r.json())
+      const res = await checkHealth()
+      setData(res)
     } catch (e) { setError(e.message) }
     finally { setLoading(false) }
   }
@@ -57,7 +58,7 @@ export default function HealthPanel() {
               <div style={{ width: 12, height: 12, borderRadius: '50%', background: 'var(--accent-green)', boxShadow: '0 0 10px var(--accent-green)', animation: 'pulse 2s infinite' }} />
               <div>
                 <div style={{ fontWeight: 700, fontSize: '0.9rem' }}>API Online</div>
-                <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>http://127.0.0.1:8000</div>
+                <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)' }}>{API_BASE_URL === '/api' ? 'Local Proxy (/api)' : API_BASE_URL}</div>
               </div>
             </div>
             <div>
