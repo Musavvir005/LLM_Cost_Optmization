@@ -53,7 +53,7 @@ export default function App() {
     const check = async () => {
       try {
         const data = await checkHealth()
-        setOnline(data?.status === 'ok' || Boolean(data))
+        setOnline(data?.status === 'ok')
       } catch { setOnline(false) }
     }
     check()

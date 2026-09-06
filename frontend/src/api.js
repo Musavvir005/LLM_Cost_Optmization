@@ -53,11 +53,11 @@ export async function apiFetch(endpoint, options = {}) {
       throw new Error(msg)
     }
 
-    // HTML / non-JSON response from hosting provider (e.g. Vercel 404/502)
+    // HTML / non-JSON response from hosting provider (e.g. Vercel 404/405/502)
     const text = await res.text().catch(() => '')
-    if (res.status === 404) {
+    if (res.status === 404 || res.status === 405) {
       throw new Error(
-        `Backend service returned 404 at ${url}. If using Vercel, set VITE_API_BASE_URL in Vercel project settings to your deployed Python backend URL.`
+        `Backend not connected (HTTP ${res.status} at ${url}). Vercel only hosts the frontend. Please deploy the Python backend (e.g. on Render) and set VITE_API_BASE_URL in Vercel.`
       )
     }
     throw new Error(`Server returned HTTP ${res.status}: ${text.slice(0, 100) || 'Unrecognized response'}`)
@@ -67,12 +67,10 @@ export async function apiFetch(endpoint, options = {}) {
     return await res.json()
   }
 
-  const rawText = await res.text()
-  try {
-    return JSON.parse(rawText)
-  } catch {
-    return { text: rawText }
-  }
+  // If the server returned 200 OK with HTML (e.g. Vercel rewriting /api/* to index.html), the backend is NOT connected
+  throw new Error(
+    `Received HTML instead of API response from ${url}. Please deploy your Python backend on Render and configure VITE_API_BASE_URL in your Vercel project.`
+  )
 }
 
 // ── Service Endpoints ───────────────────────────────────────────
