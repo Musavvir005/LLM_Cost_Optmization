@@ -7,9 +7,19 @@
  * - Automatic Bearer authentication
  */
 
-// 1. Resolve base URL: VITE_API_BASE_URL (Render/Railway/ngrok) or default '/api'
-const rawBase = (import.meta.env.VITE_API_BASE_URL || '').trim()
-export const API_BASE_URL = rawBase ? rawBase.replace(/\/+$/, '') : '/api'
+function getDefaultApiBase() {
+  const envUrl = (import.meta.env.VITE_API_BASE_URL || '').trim()
+  if (envUrl) {
+    return envUrl.replace(/\/+$/, '')
+  }
+  // In production (Vercel or any non-localhost host), automatically point to live Render backend
+  if (import.meta.env.PROD || (typeof window !== 'undefined' && window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1')) {
+    return 'https://llm-cost-optmization.onrender.com'
+  }
+  return '/api'
+}
+
+export const API_BASE_URL = getDefaultApiBase()
 
 export const API_KEY = import.meta.env.VITE_API_KEY || 'adbon-sec-key-2026-demo'
 
