@@ -1,0 +1,5 @@
+region,product,q1_sales,q2_sales,q3_sales
+North,Alpha,120000,145000,162000
+South,Beta,85000,92000,99000
+East,Gamma,210000,225000,240000
+West,Delta,175000,188000,195000

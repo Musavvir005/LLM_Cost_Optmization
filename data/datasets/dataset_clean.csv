@@ -1,0 +1,1163 @@
+ID,Prompt,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11,Task Type,Unnamed: 13,Difficulty
+1,What is the capital of India?,,,,,,,,,,,Factual QA,,Easy
+2,What is 5 + 7?,,,,,,,,,,,Mathematics,,Easy
+3,"Translate ""Hello"" into French.",,,,,,,,,,,Translation,,Easy
+4,What is Python?,,,,,,,,,,,Factual QA,,Easy
+5,Write a Python program to print Hello World.,,,,,,,,,,,Coding,,Easy
+6,What is the difference between RAM and ROM?,,,,,,,,,,,Factual QA,,Easy
+7,Convert 100 centimeters to meters.,,,,,,,,,,,Mathematics,,Easy
+8,Summarize this paragraph in one sentence.,,,,,,,,,,,Summarization,,Medium
+9,What does HTML stand for?,,,,,,,,,,,Factual QA,,Easy
+10,Write a Python function to add two numbers.,,,,,,,,,,,Coding,,Easy
+11,What is an array?,,,,,,,,,,,Factual QA,,Easy
+12,"Find the largest number in [4, 8, 2, 9].",,,,,,,,,,,Mathematics,,Easy
+13,Translate this sentence into Spanish.,,,,,,,,,,,Translation,,Easy
+14,What is a database?,,,,,,,,,,,Factual QA,,Easy
+15,Write a Python program to print numbers from 1 to 10.,,,,,,,,,,,Coding,,Easy
+16,What is machine learning?,,,,,,,,,,,Factual QA,,Easy
+17,"Calculate the average of 10, 20, and 30.",,,,,,,,,,,Mathematics,,Easy
+18,Extract all email addresses from this text.,,,,,,,,,,,Extraction,,Easy
+19,What is an API?,,,,,,,,,,,Factual QA,,Easy
+20,Write a Python program to check whether a number is even.,,,,,,,,,,,Coding,,Easy
+21,Explain how binary search works.,,,,,,,,,,,Explanation,,Medium
+22,Write a Python program to find duplicate values in a list.,,,,,,,,,,,Coding,,Medium
+23,Explain the difference between TCP and UDP.,,,,,,,,,,,Factual QA,,Medium
+24,Summarize a 500-word article into five bullet points.,,,,,,,,,,,Summarization,,Medium
+25,Write a Python program to count word frequencies in a paragraph.,,,,,,,,,,,Coding,,Medium
+26,Explain why binary search has O(log n) complexity.,,,,,,,,,,,Reasoning,,Medium
+27,Solve the system 2x+y=5 and x+2y=4.,,,,,,,,,,,Mathematics,,Medium
+28,Compare SQL and NoSQL databases.,,,,,,,,,,,Analysis,,Medium
+29,Write a function to check whether a string is a palindrome.,,,,,,,,,,,Coding,,Medium
+30,Explain how an HTTP request works.,,,,,,,,,,,Explanation,,Medium
+31,Find the second-largest element in an array without sorting it.,,,,,,,,,,,Coding,,Medium
+32,Explain the advantages and disadvantages of cloud computing.,,,,,,,,,,,Analysis,,Medium
+33,Write a program to count vowels and consonants in a string.,,,,,,,,,,,Coding,,Medium
+34,Explain the difference between supervised and unsupervised learning.,,,,,,,,,,,Explanation,,Medium
+35,"Given a dataset, calculate its mean and standard deviation.",,,,,,,,,,,Mathematics,,Medium
+36,Design a simple database schema for a library system.,,,,,,,,,,,Planning,,Medium
+37,Explain how a REST API works with an example.,,,,,,,,,,,Explanation,,Medium
+38,Write a Python program to merge two sorted lists.,,,,,,,,,,,Coding,,Medium
+39,Analyze the time complexity of nested loops.,,,,,,,,,,,Analysis,,Medium
+40,Explain how garbage collection works in Python.,,,,,,,,,,,Explanation,,Medium
+41,Design a scalable architecture for an online shopping application.,,,,,,,,,,,Architecture,,Hard
+42,Analyze this Python program and identify potential performance bottlenecks.,,,,,,,,,,,Coding,,Hard
+43,Design a fault-tolerant distributed system for millions of users.,,,,,,,,,,,Architecture,,Hard
+44,Prove that the given mathematical statement is true using induction.,,,,,,,,,,,Mathematics,,Hard
+45,Analyze a large codebase and identify possible security vulnerabilities.,,,,,,,,,,,Coding,,Hard
+46,Compare microservices and monolithic architectures for a large enterprise.,,,,,,,,,,,Analysis,,Hard
+47,Design a database capable of handling millions of transactions per second.,,,,,,,,,,,Architecture,,Hard
+48,Debug this multithreaded program and explain the race condition.,,,,,,,,,,,Coding,,Hard
+49,Analyze the scalability problems in this distributed application.,,,,,,,,,,,Analysis,,Hard
+50,Design an AI recommendation system for an e-commerce platform.,,,,,,,,,,,Architecture,,Hard
+51,Develop an algorithm for detecting fraudulent financial transactions.,,,,,,,,,,,Algorithm,,Hard
+52,"Explain the trade-offs between consistency, availability, and partition tolerance.",,,,,,,,,,,Reasoning,,Hard
+53,Design a fault-tolerant payment processing system.,,,,,,,,,,,Architecture,,Hard
+54,Analyze this algorithm and prove its worst-case complexity.,,,,,,,,,,,Mathematics,,Hard
+55,Develop a strategy for reducing latency in a distributed API.,,,,,,,,,,,Planning,,Hard
+56,Design a secure authentication system for a banking application.,,,,,,,,,,,Architecture,,Hard
+57,Analyze conflicting requirements and propose an optimal solution.,,,,,,,,,,,Reasoning,,Hard
+58,Design an ML pipeline for detecting credit-card fraud.,,,,,,,,,,,ML,,Hard
+59,Debug a complex application involving database deadlocks.,,,,,,,,,,,Coding,,Hard
+60,Design a system capable of processing millions of events per second.,,,,,,,,,,,Architecture,,Hard
+61,"Given a long document, identify contradictions between different sections.",,,,,,,,,,,Analysis,,Hard
+62,Compare multiple ML algorithms and recommend one for an imbalanced dataset.,,,,,,,,,,,ML,,Hard
+63,Design a distributed file-storage system similar to cloud storage.,,,,,,,,,,,Architecture,,Hard
+64,Analyze the security implications of storing user credentials incorrectly.,,,,,,,,,,,Security,,Hard
+65,Develop an optimization strategy for a computationally expensive algorithm.,,,,,,,,,,,Optimization,,Hard
+66,Design a real-time vehicle tracking system for a large city.,,,,,,,,,,,Architecture,,Hard
+67,Analyze why a machine-learning model performs poorly despite high training accuracy.,,,,,,,,,,,ML,,Hard
+68,Design a recommendation algorithm using collaborative filtering.,,,,,,,,,,,ML,,Hard
+69,Explain and solve a complex dynamic programming problem.,,,,,,,,,,,Algorithm,,Hard
+70,Design a reliable message-processing system that guarantees delivery.,,,,,,,,,,,Architecture,,Hard
+71,Summarize a 10-page technical document while preserving all critical information.,,,,,,,,,,,Summarization,,Hard
+72,Analyze a long legal-style document and identify conflicting clauses.,,,,,,,,,,,Analysis,,Hard
+73,Design a multi-region cloud architecture with disaster recovery.,,,,,,,,,,,Architecture,,Hard
+74,Optimize a slow SQL query involving multiple large tables.,,,,,,,,,,,Database,,Hard
+75,Design an NLP system capable of classifying millions of documents.,,,,,,,,,,,NLP,,Hard
+76,Analyze the causes of model hallucination and propose mitigation techniques.,,,,,,,,,,,AI Analysis,,Hard
+77,Design a scalable API gateway capable of handling millions of requests.,,,,,,,,,,,Architecture,,Hard
+78,Compare different caching strategies for a high-traffic application.,,,,,,,,,,,Analysis,,Hard
+79,Design a secure system for storing sensitive customer information.,,,,,,,,,,,Security,,Hard
+80,Analyze a complex software architecture and recommend improvements.,,,,,,,,,,,Architecture,,Hard
+81,Build an algorithm to detect anomalies in a large time-series dataset.,,,,,,,,,,,ML,,Hard
+82,Design an LLM application capable of processing very large documents.,,,,,,,,,,,AI Architecture,,Hard
+83,Analyze why an application experiences intermittent failures under heavy load.,,,,,,,,,,,Debugging,,Hard
+84,Design an efficient distributed logging system.,,,,,,,,,,,Architecture,,Hard
+85,Develop a strategy for optimizing GPU utilization during model inference.,,,,,,,,,,,Optimization,,Hard
+86,Compare multiple LLMs and determine which model should handle different tasks.,,,,,,,,,,,AI Analysis,,Hard
+87,Design a cost-aware AI inference system that maintains a quality threshold.,,,,,,,,,,,AI Architecture,,Hard
+88,"Analyze the trade-off between model accuracy, latency, and inference cost.",,,,,,,,,,,Analysis,,Hard
+89,Design an adaptive LLM routing system using historical performance data.,,,,,,,,,,,AI Architecture,,Hard
+90,Develop an algorithm that dynamically selects an AI model based on request difficulty.,,,,,,,,,,,Algorithm,,Hard
+91,Analyze how prompt caching can reduce LLM inference costs.,,,,,,,,,,,AI Analysis,,Medium
+92,Design a cache invalidation strategy for frequently changing documents.,,,,,,,,,,,Architecture,,Hard
+93,Compare model routing based on prompt length versus semantic difficulty.,,,,,,,,,,,Analysis,,Hard
+94,Design an evaluation framework for comparing LLM answer quality.,,,,,,,,,,,AI Evaluation,,Hard
+95,Analyze whether a cheaper LLM can safely answer a particular request.,,,,,,,,,,,AI Analysis,,Hard
+96,Design a system that automatically escalates requests when answer quality is insufficient.,,,,,,,,,,,AI Architecture,,Hard
+97,"Create an optimization strategy balancing LLM cost, latency, and quality.",,,,,,,,,,,Optimization,,Hard
+98,Design an experiment to prove that an LLM routing system reduces cost without degrading quality.,,,,,,,,,,,Experimentation,,Hard
+99,Analyze a dataset of LLM requests and discover which features predict model failure.,,,,,,,,,,,Data Analysis,,Hard
+100,"Design an intelligent LLM gateway that combines routing, caching, quality evaluation, and automatic escalation.",,,,,,,,,,,AI Architecture,,Hard
+101,What is a variable?,,,,,,,,,,,Factual QA,,Easy
+102,Explain how version control with Git works.,,,,,,,,,,,Explanation,,Medium
+103,What is the capital of Peru?,,,,,,,,,,,Factual QA,,Easy
+104,Write a program to validate whether a given string has balanced parentheses.,,,,,,,,,,,Coding,,Medium
+105,Design an NLP system capable of summarizing millions of customer reviews.,,,,,,,,,,,NLP,,Hard
+106,Build an algorithm to detect outliers in high-dimensional data.,,,,,,,,,,,ML,,Hard
+107,Find the derivative of f(x) = 3x^2 + 2x - 5.,,,,,,,,,,,Mathematics,,Medium
+108,Optimize a slow SQL query involving multiple joins and subqueries.,,,,,,,,,,,Database,,Hard
+109,Summarize this email into a single sentence.,,,,,,,,,,,Summarization,,Medium
+110,Develop an algorithm for optimal task scheduling under resource constraints.,,,,,,,,,,,Algorithm,,Hard
+111,What is a linked list?,,,,,,,,,,,Factual QA,,Easy
+112,What is 72 + 11?,,,,,,,,,,,Mathematics,,Easy
+113,Analyze why a deep learning model overfits despite regularization.,,,,,,,,,,,ML,,Hard
+114,Design an AI system that dynamically selects between multiple models based on task complexity.,,,,,,,,,,,AI Architecture,,Hard
+115,Analyze the trade-offs between strong consistency and eventual consistency.,,,,,,,,,,,Analysis,,Hard
+116,Design an algorithm for efficient string matching across millions of documents.,,,,,,,,,,,Algorithm,,Hard
+117,Convert 5 kilometers to meters.,,,,,,,,,,,Mathematics,,Easy
+118,Develop a strategy for optimizing database indexing for read-heavy workloads.,,,,,,,,,,,Optimization,,Hard
+119,Write a Python program to implement a queue using two stacks.,,,,,,,,,,,Coding,,Medium
+120,Explain how containerization with Docker works.,,,,,,,,,,,Explanation,,Medium
+121,Explain how a REST API handles authentication using tokens.,,,,,,,,,,,Explanation,,Medium
+122,What is the capital of Canada?,,,,,,,,,,,Factual QA,,Easy
+123,"Summarize a lengthy legal contract, highlighting all obligations and risks.",,,,,,,,,,,Summarization,,Hard
+124,Develop an algorithm for detecting duplicate records across large datasets.,,,,,,,,,,,Algorithm,,Hard
+125,Explain how a binary tree is traversed.,,,,,,,,,,,Explanation,,Medium
+126,Develop a rollout plan for deploying a new feature with minimal downtime.,,,,,,,,,,,Planning,,Hard
+127,Summarize this product review in one sentence.,,,,,,,,,,,Summarization,,Medium
+128,Explain how HTTPS encryption works.,,,,,,,,,,,Explanation,,Medium
+129,Explain how CI/CD pipelines work.,,,,,,,,,,,Explanation,,Medium
+130,Write a Python program to reverse a string.,,,,,,,,,,,Coding,,Easy
+131,What is 23 + 9?,,,,,,,,,,,Mathematics,,Easy
+132,"Find the sum of the elements in [1, 2, 3, 4, 5].",,,,,,,,,,,Mathematics,,Easy
+133,Summarize this news article in two sentences.,,,,,,,,,,,Summarization,,Medium
+134,What is the capital of Portugal?,,,,,,,,,,,Factual QA,,Easy
+135,Write a function to check whether a linked list contains a cycle.,,,,,,,,,,,Coding,,Medium
+136,What is 17 + 24?,,,,,,,,,,,Mathematics,,Easy
+137,Explain the difference between IPv4 and IPv6.,,,,,,,,,,,Factual QA,,Medium
+138,Solve the system 3x+2y=12 and x-y=1.,,,,,,,,,,,Mathematics,,Medium
+139,What is the capital of Norway?,,,,,,,,,,,Factual QA,,Easy
+140,Summarize a 20-page technical whitepaper while preserving all critical findings.,,,,,,,,,,,Summarization,,Hard
+141,What is 6 multiplied by 7?,,,,,,,,,,,Mathematics,,Easy
+142,What is JavaScript?,,,,,,,,,,,Factual QA,,Easy
+143,Design a scalable architecture for a ride-sharing application.,,,,,,,,,,,Architecture,,Hard
+144,Optimize a slow-running batch processing job handling terabytes of data.,,,,,,,,,,,Optimization,,Hard
+145,What is the capital of Egypt?,,,,,,,,,,,Factual QA,,Easy
+146,Explain the difference between synchronous and asynchronous programming.,,,,,,,,,,,Factual QA,,Medium
+147,Analyze a legacy codebase written in Java and identify refactoring opportunities.,,,,,,,,,,,Coding,,Hard
+148,What is the capital of Australia?,,,,,,,,,,,Factual QA,,Easy
+149,"Translate ""Thank you"" into German.",,,,,,,,,,,Translation,,Easy
+150,What does CPU stand for?,,,,,,,,,,,Factual QA,,Easy
+151,What is the capital of Brazil?,,,,,,,,,,,Factual QA,,Easy
+152,What is the capital of Greece?,,,,,,,,,,,Factual QA,,Easy
+153,Write a Python program to print the Fibonacci sequence up to 10 terms.,,,,,,,,,,,Coding,,Easy
+154,Explain the difference between REST and GraphQL.,,,,,,,,,,,Factual QA,,Medium
+155,Design a secure system for handling API authentication tokens.,,,,,,,,,,,Security,,Hard
+156,Compare vertical scaling and horizontal scaling for a growing application.,,,,,,,,,,,Analysis,,Medium
+157,Develop an algorithm to detect cycles in a large directed graph.,,,,,,,,,,,Algorithm,,Hard
+158,Design a retrieval-augmented generation system for enterprise knowledge bases.,,,,,,,,,,,AI Architecture,,Hard
+159,Explain the trade-offs between latency and throughput in a distributed system.,,,,,,,,,,,Reasoning,,Hard
+160,Write a Python program to remove duplicates from a list without using set().,,,,,,,,,,,Coding,,Medium
+161,Extract all dates mentioned in this paragraph.,,,,,,,,,,,Extraction,,Easy
+162,Analyze this recursive function and identify why it causes a stack overflow.,,,,,,,,,,,Coding,,Hard
+163,Debug a memory leak in a long-running Node.js application.,,,,,,,,,,,Coding,,Hard
+164,Convert 1 mile to kilometers.,,,,,,,,,,,Mathematics,,Easy
+165,What is a queue data structure?,,,,,,,,,,,Factual QA,,Easy
+166,Explain how a compiler differs from an interpreter.,,,,,,,,,,,Explanation,,Medium
+167,Debug this asynchronous JavaScript code and explain the race condition.,,,,,,,,,,,Coding,,Hard
+168,Write a Python program to implement binary search on a sorted list.,,,,,,,,,,,Coding,,Medium
+169,"Translate ""Welcome"" into Japanese.",,,,,,,,,,,Translation,,Easy
+170,What is the capital of Vietnam?,,,,,,,,,,,Factual QA,,Easy
+171,Convert 2 hours into minutes.,,,,,,,,,,,Mathematics,,Easy
+172,Analyze why a production service experiences memory leaks under sustained load.,,,,,,,,,,,Debugging,,Hard
+173,Write a Python program to convert Celsius to Fahrenheit.,,,,,,,,,,,Coding,,Easy
+174,Summarize a customer support transcript into a short report.,,,,,,,,,,,Summarization,,Medium
+175,What is the capital of Japan?,,,,,,,,,,,Factual QA,,Easy
+176,Write a Python program to find the GCD of two numbers.,,,,,,,,,,,Coding,,Medium
+177,Explain how a load balancer works.,,,,,,,,,,,Explanation,,Medium
+178,Analyze conflicting business requirements for a multi-region deployment and propose a resolution.,,,,,,,,,,,Reasoning,,Hard
+179,"Translate ""Good morning"" into Italian.",,,,,,,,,,,Translation,,Easy
+180,Extract all hashtags from this social media post.,,,,,,,,,,,Extraction,,Easy
+181,Design a database sharding strategy for a rapidly growing application.,,,,,,,,,,,Database,,Hard
+182,Write a Python program to flatten a nested list.,,,,,,,,,,,Coding,,Medium
+183,Design a scalable architecture for a social media platform.,,,,,,,,,,,Architecture,,Hard
+184,Explain why merge sort has O(n log n) time complexity.,,,,,,,,,,,Reasoning,,Medium
+185,Design an ML pipeline for detecting spam emails.,,,,,,,,,,,ML,,Hard
+186,Design a benchmark suite for comparing LLM performance across different task types.,,,,,,,,,,,AI Evaluation,,Hard
+187,What is 12 multiplied by 4?,,,,,,,,,,,Mathematics,,Easy
+188,Design a recommendation algorithm using content-based filtering.,,,,,,,,,,,ML,,Hard
+189,Design a highly available architecture for a global content delivery network.,,,,,,,,,,,Architecture,,Hard
+190,Analyze the risks of SQL injection vulnerabilities in a web application.,,,,,,,,,,,Security,,Hard
+191,What is a function in programming?,,,,,,,,,,,Factual QA,,Easy
+192,Design an architecture for a real-time multiplayer gaming backend.,,,,,,,,,,,Architecture,,Hard
+193,Explain how event-driven architecture works with an example.,,,,,,,,,,,Explanation,,Medium
+194,Convert 10 inches to centimeters.,,,,,,,,,,,Mathematics,,Easy
+195,Explain the difference between a compiler and an assembler.,,,,,,,,,,,Factual QA,,Medium
+196,Compare multiple ML algorithms and recommend one for a time-series forecasting problem.,,,,,,,,,,,ML,,Hard
+197,Analyze a Python microservice and identify potential concurrency issues.,,,,,,,,,,,Coding,,Hard
+198,Explain why quicksort can degrade to O(n^2) in the worst case.,,,,,,,,,,,Reasoning,,Medium
+199,What is the capital of Turkey?,,,,,,,,,,,Factual QA,,Easy
+200,Compare Python and JavaScript for backend development.,,,,,,,,,,,Analysis,,Medium
+201,Design an NLP pipeline for extracting entities from legal documents.,,,,,,,,,,,NLP,,Hard
+202,Develop a strategy for migrating a monolithic application to microservices.,,,,,,,,,,,Planning,,Hard
+203,Analyze a dataset of API logs to identify the root cause of increased latency.,,,,,,,,,,,Data Analysis,,Hard
+204,Write a loop that prints numbers from 1 to 20.,,,,,,,,,,,Coding,,Easy
+205,Write a Python program to check if two strings are anagrams.,,,,,,,,,,,Coding,,Medium
+206,Analyze a dataset of customer support tickets to discover common failure patterns.,,,,,,,,,,,Data Analysis,,Hard
+207,What is a stack data structure?,,,,,,,,,,,Factual QA,,Easy
+208,What is a firewall?,,,,,,,,,,,Factual QA,,Easy
+209,Write a Python program to rotate an array by k positions.,,,,,,,,,,,Coding,,Medium
+210,Compare multiple LLMs on reasoning tasks and determine which performs best.,,,,,,,,,,,AI Analysis,,Hard
+211,Design a secure architecture for a healthcare records system.,,,,,,,,,,,Architecture,,Hard
+212,Design a text classification system for detecting toxic online comments.,,,,,,,,,,,NLP,,Hard
+213,Write a Python program to implement a stack using a list.,,,,,,,,,,,Coding,,Medium
+214,Solve the quadratic equation x^2 - 5x + 6 = 0.,,,,,,,,,,,Mathematics,,Medium
+215,Design a distributed caching layer for a high-traffic website.,,,,,,,,,,,Architecture,,Hard
+216,Explain how merge sort works.,,,,,,,,,,,Explanation,,Medium
+217,Analyze the time complexity of the merge sort algorithm and prove it formally.,,,,,,,,,,,Mathematics,,Hard
+218,Design a distributed job scheduling system.,,,,,,,,,,,Architecture,,Hard
+219,What is 11 multiplied by 11?,,,,,,,,,,,Mathematics,,Easy
+220,Design a simple database schema for a hospital appointment system.,,,,,,,,,,,Planning,,Medium
+221,Prove that a connected graph with n nodes has at least n-1 edges.,,,,,,,,,,,Mathematics,,Hard
+222,Summarize this recipe in one sentence.,,,,,,,,,,,Summarization,,Medium
+223,Compare event-driven and request-driven architectures for a large enterprise.,,,,,,,,,,,Analysis,,Hard
+224,Summarize a 400-word research abstract into three bullet points.,,,,,,,,,,,Summarization,,Medium
+225,Explain how caching improves performance.,,,,,,,,,,,Explanation,,Medium
+226,Write a function to check if a number is a perfect square.,,,,,,,,,,,Coding,,Medium
+227,Explain why dynamic programming reduces redundant computation.,,,,,,,,,,,Reasoning,,Medium
+228,"Calculate the median and mode of the dataset [4, 8, 8, 15, 16, 23].",,,,,,,,,,,Mathematics,,Medium
+229,What does CSS stand for?,,,,,,,,,,,Factual QA,,Easy
+230,What is the capital of Morocco?,,,,,,,,,,,Factual QA,,Easy
+231,Design a simple database schema for an online food delivery app.,,,,,,,,,,,Planning,,Medium
+232,Explain how recursion works with an example.,,,,,,,,,,,Explanation,,Medium
+233,Summarize this short story in a few words.,,,,,,,,,,,Summarization,,Medium
+234,Design a multi-agent AI system for automating customer support workflows.,,,,,,,,,,,AI Architecture,,Hard
+235,Design a resilient architecture for an IoT sensor network.,,,,,,,,,,,Architecture,,Hard
+236,What is the capital of Chile?,,,,,,,,,,,Factual QA,,Easy
+237,Extract all phone numbers from this text.,,,,,,,,,,,Extraction,,Easy
+238,Develop an optimization strategy for reducing memory usage in a data pipeline.,,,,,,,,,,,Optimization,,Hard
+239,Write a Python program to count the number of characters in a string.,,,,,,,,,,,Coding,,Easy
+240,Design a real-time chat application supporting millions of users.,,,,,,,,,,,Architecture,,Hard
+241,Write a Python program to find the second smallest number in a list.,,,,,,,,,,,Coding,,Medium
+242,Design a fault-tolerant architecture for a stock trading platform.,,,,,,,,,,,Architecture,,Hard
+243,Design an evaluation framework for measuring hallucination rates in LLM outputs.,,,,,,,,,,,AI Evaluation,,Hard
+244,Find the roots of the equation 2x^2 - 8x + 6 = 0.,,,,,,,,,,,Mathematics,,Medium
+245,What is a compiler?,,,,,,,,,,,Factual QA,,Easy
+246,What is the capital of Poland?,,,,,,,,,,,Factual QA,,Easy
+247,Write a Python function to find the square of a number.,,,,,,,,,,,Coding,,Easy
+248,What does URL stand for?,,,,,,,,,,,Factual QA,,Easy
+249,"Sort the list [5, 3, 8, 1] in ascending order.",,,,,,,,,,,Mathematics,,Easy
+250,Explain how quicksort works.,,,,,,,,,,,Explanation,,Medium
+251,"Translate ""Excuse me"" into Korean.",,,,,,,,,,,Translation,,Easy
+252,Explain how a hash table resolves collisions.,,,,,,,,,,,Explanation,,Medium
+253,Summarize a meeting transcript into action items.,,,,,,,,,,,Summarization,,Medium
+254,Debug a distributed system exhibiting inconsistent state across nodes.,,,,,,,,,,,Debugging,,Hard
+255,Design a database schema optimized for analytical queries at scale.,,,,,,,,,,,Database,,Hard
+256,Analyze how fine-tuning affects an LLM's performance on domain-specific tasks.,,,,,,,,,,,AI Analysis,,Hard
+257,Prove that the sum of the first n odd numbers equals n squared using induction.,,,,,,,,,,,Mathematics,,Hard
+258,Convert 500 grams to kilograms.,,,,,,,,,,,Mathematics,,Easy
+259,Write a Python function to subtract two numbers.,,,,,,,,,,,Coding,,Easy
+260,Compare serverless and container-based deployment for a high-traffic API.,,,,,,,,,,,Analysis,,Hard
+261,What is the capital of Finland?,,,,,,,,,,,Factual QA,,Easy
+262,What is an operating system?,,,,,,,,,,,Factual QA,,Easy
+263,Explain how a webhook differs from polling.,,,,,,,,,,,Explanation,,Medium
+264,"Count how many even numbers are in [1, 2, 3, 4, 5, 6].",,,,,,,,,,,Mathematics,,Easy
+265,Design an event-driven microservices architecture for order processing.,,,,,,,,,,,Architecture,,Hard
+266,Design a serverless architecture for a data processing pipeline.,,,,,,,,,,,Architecture,,Hard
+267,Convert 3 liters to milliliters.,,,,,,,,,,,Mathematics,,Easy
+268,Compare unit testing and integration testing strategies.,,,,,,,,,,,Analysis,,Medium
+269,What is 12 + 15?,,,,,,,,,,,Mathematics,,Easy
+270,Explain how a linked list differs from an array.,,,,,,,,,,,Explanation,,Medium
+271,Compare relational and non-relational databases for an e-commerce app.,,,,,,,,,,,Analysis,,Medium
+272,Summarize a 500-word news report highlighting only the key facts.,,,,,,,,,,,Summarization,,Medium
+273,What is the capital of Thailand?,,,,,,,,,,,Factual QA,,Easy
+274,Write a Python program to swap two variables.,,,,,,,,,,,Coding,,Easy
+275,Analyze the causes of bias in a machine learning model and propose mitigation strategies.,,,,,,,,,,,AI Analysis,,Hard
+276,"Find the smallest number in [12, 3, 45, 7].",,,,,,,,,,,Mathematics,,Easy
+277,"Find the average of the numbers in [2, 4, 6, 8].",,,,,,,,,,,Mathematics,,Easy
+278,What is 31 + 14?,,,,,,,,,,,Mathematics,,Easy
+279,Explain how DNS resolution works.,,,,,,,,,,,Explanation,,Medium
+280,Design an LLM application capable of answering questions across multiple documents.,,,,,,,,,,,AI Architecture,,Hard
+281,Develop a strategy for scaling a database to handle 10x current traffic.,,,,,,,,,,,Planning,,Hard
+282,Extract all product names from this list.,,,,,,,,,,,Extraction,,Easy
+283,Analyze how temperature settings affect LLM output quality and consistency.,,,,,,,,,,,AI Analysis,,Hard
+284,"Translate ""See you later"" into Portuguese.",,,,,,,,,,,Translation,,Easy
+285,Analyze the security implications of using weak encryption algorithms.,,,,,,,,,,,Security,,Hard
+286,Extract all URLs from this webpage text.,,,,,,,,,,,Extraction,,Easy
+287,Design a cost-aware AI inference system that balances latency and accuracy.,,,,,,,,,,,AI Architecture,,Hard
+288,Analyze the scalability bottlenecks in a monolithic e-commerce application.,,,,,,,,,,,Analysis,,Hard
+289,"Translate ""Please"" into Hindi.",,,,,,,,,,,Translation,,Easy
+290,What is the capital of Germany?,,,,,,,,,,,Factual QA,,Easy
+291,Write a Python function to convert a string to uppercase.,,,,,,,,,,,Coding,,Easy
+292,Design a basic project plan for launching a mobile app.,,,,,,,,,,,Planning,,Medium
+293,Summarize a 600-word blog post into four key takeaways.,,,,,,,,,,,Summarization,,Medium
+294,What is object-oriented programming?,,,,,,,,,,,Factual QA,,Easy
+295,Explain how threads differ from processes.,,,,,,,,,,,Explanation,,Medium
+296,"Translate ""Good night"" into Arabic.",,,,,,,,,,,Translation,,Easy
+297,Write a function to find all pairs in an array that sum to a target value.,,,,,,,,,,,Coding,,Medium
+298,Find the area under the curve f(x) = x^2 from x=0 to x=3.,,,,,,,,,,,Mathematics,,Medium
+299,Explain how a reverse proxy works.,,,,,,,,,,,Explanation,,Medium
+300,Design an A/B test to evaluate a new caching strategy's effect on latency.,,,,,,,,,,,Experimentation,,Hard
+301,Write a Python program to implement breadth-first search on a graph.,,,,,,,,,,,Coding,,Medium
+302,What is the capital of Kenya?,,,,,,,,,,,Factual QA,,Easy
+303,What is data normalization?,,,,,,,,,,,Factual QA,,Easy
+304,Explain how distributed locking works in distributed systems.,,,,,,,,,,,Explanation,,Medium
+305,Summarize a product requirements document into a short overview.,,,,,,,,,,,Summarization,,Medium
+306,Design a scalable notification system for a mobile application.,,,,,,,,,,,Architecture,,Hard
+307,What is 15 multiplied by 28?,,,,,,,,,,,Mathematics,,Easy
+308,Explain how connection pooling improves database performance.,,,,,,,,,,,Explanation,,Medium
+309,"Translate ""I love you"" into French.",,,,,,,,,,,Translation,,Easy
+310,Design a model retraining pipeline that adapts to changing data patterns.,,,,,,,,,,,ML,,Hard
+311,Write a Python program to implement a circular queue.,,,,,,,,,,,Coding,,Medium
+312,What is 99 multiplied by 61?,,,,,,,,,,,Mathematics,,Easy
+313,What is a foreign key constraint?,,,,,,,,,,,Factual QA,,Easy
+314,What is 76 multiplied by 109?,,,,,,,,,,,Mathematics,,Easy
+315,Explain the trade-offs between build-vs-buy decisions for a critical infrastructure component.,,,,,,,,,,,Reasoning,,Hard
+316,What is a data type?,,,,,,,,,,,Factual QA,,Easy
+317,What is 8 + 20?,,,,,,,,,,,Mathematics,,Easy
+318,What is an algorithm?,,,,,,,,,,,Factual QA,,Easy
+319,What is 17 - 57?,,,,,,,,,,,Mathematics,,Easy
+320,Design a zero-trust security architecture for a corporate network.,,,,,,,,,,,Security,,Hard
+321,What is the capital of Senegal?,,,,,,,,,,,Factual QA,,Easy
+322,Design a model monitoring system for detecting data drift in production.,,,,,,,,,,,ML,,Hard
+323,Compare leader-based and leaderless replication strategies for distributed databases.,,,,,,,,,,,Analysis,,Hard
+324,Design an AI system for automatically generating release notes from commit history.,,,,,,,,,,,AI Architecture,,Hard
+325,Write a Python program to print the multiplication table of a number.,,,,,,,,,,,Coding,,Easy
+326,Design a sentiment analysis system for real-time social media monitoring.,,,,,,,,,,,NLP,,Hard
+327,Explain how gossip protocols work in distributed systems.,,,,,,,,,,,Explanation,,Medium
+328,Design an AI-powered code review system integrated into a CI/CD pipeline.,,,,,,,,,,,AI Architecture,,Hard
+329,Write a Python program to implement insertion sort.,,,,,,,,,,,Coding,,Medium
+330,What is the capital of Mongolia?,,,,,,,,,,,Factual QA,,Easy
+331,What is a lambda function?,,,,,,,,,,,Factual QA,,Easy
+332,What is an IP address?,,,,,,,,,,,Factual QA,,Easy
+333,Write a Python program to count occurrences of a word in a sentence.,,,,,,,,,,,Coding,,Easy
+334,"What is 84 divided by 40, rounded to two decimal places?",,,,,,,,,,,Mathematics,,Easy
+335,"Find the median of the dataset [7, 2, 9, 4, 5].",,,,,,,,,,,Mathematics,,Easy
+336,Design a human-in-the-loop evaluation process for grading LLM responses.,,,,,,,,,,,AI Evaluation,,Hard
+337,What is a class in programming?,,,,,,,,,,,Factual QA,,Easy
+338,Write a Python function to find the maximum of three numbers.,,,,,,,,,,,Coding,,Easy
+339,Compare relational schema design and document-based schema design.,,,,,,,,,,,Analysis,,Medium
+340,What is a linked data structure?,,,,,,,,,,,Factual QA,,Easy
+341,Write a function to find the intersection of two arrays.,,,,,,,,,,,Coding,,Medium
+342,Develop an optimization strategy for reducing API response payload sizes.,,,,,,,,,,,Optimization,,Hard
+343,Design a database replication strategy for disaster recovery.,,,,,,,,,,,Database,,Hard
+344,Analyze why a mobile application crashes only on low-memory devices.,,,,,,,,,,,Debugging,,Hard
+345,What is 109 multiplied by 19?,,,,,,,,,,,Mathematics,,Easy
+346,What is a server?,,,,,,,,,,,Factual QA,,Easy
+347,Write a Python program to implement a hash map from scratch.,,,,,,,,,,,Coding,,Medium
+348,What is 89 - 40?,,,,,,,,,,,Mathematics,,Easy
+349,Convert 7 weeks into days.,,,,,,,,,,,Mathematics,,Easy
+350,What is the capital of Italy?,,,,,,,,,,,Factual QA,,Easy
+351,Summarize a webinar transcript into key learning points.,,,,,,,,,,,Summarization,,Medium
+352,Prove that a binary search tree's in-order traversal is always sorted.,,,,,,,,,,,Mathematics,,Hard
+353,What is the capital of Zimbabwe?,,,,,,,,,,,Factual QA,,Easy
+354,Design an NLP pipeline for detecting duplicate support tickets.,,,,,,,,,,,NLP,,Hard
+355,Write a Python function to check whether a character is a vowel.,,,,,,,,,,,Coding,,Easy
+356,Analyze the trade-offs between using a single large database and multiple smaller databases.,,,,,,,,,,,Analysis,,Hard
+357,"Find the mode of the dataset [1, 2, 2, 3, 3, 3].",,,,,,,,,,,Mathematics,,Easy
+358,"Translate ""I need a taxi."" into Arabic.",,,,,,,,,,,Translation,,Easy
+359,Develop an algorithm for scheduling jobs on multiple machines to minimize makespan.,,,,,,,,,,,Algorithm,,Hard
+360,Analyze conflicting requirements between data privacy regulations and personalization features.,,,,,,,,,,,Reasoning,,Hard
+361,Extract all monetary values from this bank statement.,,,,,,,,,,,Extraction,,Easy
+362,Write a Python program to serialize and deserialize a binary tree.,,,,,,,,,,,Coding,,Medium
+363,Write a Python program to remove a specific element from a list.,,,,,,,,,,,Coding,,Easy
+364,Write a Python program to solve the N-Queens problem.,,,,,,,,,,,Coding,,Hard
+365,Write a Python program to check whether two numbers are equal.,,,,,,,,,,,Coding,,Easy
+366,What is the capital of Costa Rica?,,,,,,,,,,,Factual QA,,Easy
+367,What is a stored procedure?,,,,,,,,,,,Factual QA,,Easy
+368,Find the integral of f(x) = 4x^3 - 2x.,,,,,,,,,,,Mathematics,,Medium
+369,"Translate ""Can you help me?"" into Italian.",,,,,,,,,,,Translation,,Easy
+370,"Translate ""What time is it?"" into German.",,,,,,,,,,,Translation,,Easy
+371,Write a Python program to implement a simple LRU cache.,,,,,,,,,,,Coding,,Medium
+372,Solve for x in the equation 3(x-2) + 5 = 2x + 4.,,,,,,,,,,,Mathematics,,Medium
+373,Compare push notifications and polling for mobile app updates.,,,,,,,,,,,Analysis,,Medium
+374,Design an ML pipeline for detecting network intrusions.,,,,,,,,,,,ML,,Hard
+375,Explain how JWT tokens work.,,,,,,,,,,,Explanation,,Medium
+376,Write a Python program to print a right-angled triangle pattern of stars.,,,,,,,,,,,Coding,,Easy
+377,"Translate ""Where is the train station?"" into Portuguese.",,,,,,,,,,,Translation,,Easy
+378,What is the capital of Argentina?,,,,,,,,,,,Factual QA,,Easy
+379,Explain the trade-offs between strong security and system usability.,,,,,,,,,,,Reasoning,,Hard
+380,What is 102 + 129?,,,,,,,,,,,Mathematics,,Easy
+381,Write a Python program to find the cube of a number.,,,,,,,,,,,Coding,,Easy
+382,Design an LLM-based system for automatically summarizing legal contracts.,,,,,,,,,,,AI Architecture,,Hard
+383,What is the capital of Denmark?,,,,,,,,,,,Factual QA,,Easy
+384,What is 125 + 81?,,,,,,,,,,,Mathematics,,Easy
+385,What is 24 + 113?,,,,,,,,,,,Mathematics,,Easy
+386,Explain why a hash table lookup is O(1) on average.,,,,,,,,,,,Reasoning,,Medium
+387,What is 48 - 28?,,,,,,,,,,,Mathematics,,Easy
+388,Write a Python function to find the index of an element in a list.,,,,,,,,,,,Coding,,Easy
+389,What is 71 multiplied by 123?,,,,,,,,,,,Mathematics,,Easy
+390,Explain how a content delivery network chooses the nearest edge server.,,,,,,,,,,,Explanation,,Medium
+391,"Find the slope of the line passing through (2,3) and (6,11).",,,,,,,,,,,Mathematics,,Medium
+392,Debug an intermittent null pointer exception in a Java application.,,,,,,,,,,,Coding,,Hard
+393,Solve the system 5x-y=7 and 2x+3y=1.,,,,,,,,,,,Mathematics,,Medium
+394,What is 7 - 54?,,,,,,,,,,,Mathematics,,Easy
+395,What is the capital of Croatia?,,,,,,,,,,,Factual QA,,Easy
+396,Explain the difference between an interface and an abstract class.,,,,,,,,,,,Factual QA,,Medium
+397,What is technical documentation?,,,,,,,,,,,Factual QA,,Easy
+398,Analyze why a background job queue keeps falling behind under load.,,,,,,,,,,,Debugging,,Hard
+399,Convert 2 tons to kilograms.,,,,,,,,,,,Mathematics,,Easy
+400,Summarize a quarterly earnings call into three highlights.,,,,,,,,,,,Summarization,,Medium
+401,What is a build pipeline?,,,,,,,,,,,Factual QA,,Easy
+402,Debug a memory corruption bug in a C program.,,,,,,,,,,,Coding,,Hard
+403,Analyze how context window size affects an LLM's ability to answer long-document questions.,,,,,,,,,,,AI Analysis,,Hard
+404,Explain how a token bucket algorithm implements rate limiting.,,,,,,,,,,,Explanation,,Medium
+405,What is the capital of Cambodia?,,,,,,,,,,,Factual QA,,Easy
+406,Compare RESTful and RPC-style API design.,,,,,,,,,,,Analysis,,Medium
+407,Develop a strategy for phasing out a deprecated internal API without breaking clients.,,,,,,,,,,,Planning,,Hard
+408,Design a multi-region database architecture with low-latency reads.,,,,,,,,,,,Database,,Hard
+409,Design a scalable architecture for a live sports streaming service.,,,,,,,,,,,Architecture,,Hard
+410,Design a fault-tolerant architecture for an email delivery service.,,,,,,,,,,,Architecture,,Hard
+411,"Translate ""Happy birthday"" into Dutch.",,,,,,,,,,,Translation,,Easy
+412,Explain the difference between deep copy and shallow copy.,,,,,,,,,,,Factual QA,,Medium
+413,"Find the range of the dataset [10, 25, 3, 47, 18].",,,,,,,,,,,Mathematics,,Easy
+414,What is a data warehouse?,,,,,,,,,,,Factual QA,,Easy
+415,Analyze the trade-offs between vertical partitioning and horizontal partitioning.,,,,,,,,,,,Analysis,,Hard
+416,Write a Python program to check whether a string contains only digits.,,,,,,,,,,,Coding,,Easy
+417,Write a Python program to check whether a matrix is a magic square.,,,,,,,,,,,Coding,,Medium
+418,Design a secure multi-factor authentication system for a mobile banking app.,,,,,,,,,,,Security,,Hard
+419,Analyze the space complexity of a recursive dynamic programming solution.,,,,,,,,,,,Mathematics,,Hard
+420,"Translate ""See you tomorrow"" into Chinese.",,,,,,,,,,,Translation,,Easy
+421,What is throughput?,,,,,,,,,,,Factual QA,,Easy
+422,Analyze a dataset of application crash reports to identify the most common root causes.,,,,,,,,,,,Data Analysis,,Hard
+423,Explain how canary releases work.,,,,,,,,,,,Explanation,,Medium
+424,Summarize this movie plot in one sentence.,,,,,,,,,,,Summarization,,Medium
+425,What is the capital of Bangladesh?,,,,,,,,,,,Factual QA,,Easy
+426,Explain why amortized analysis is used for dynamic array resizing.,,,,,,,,,,,Reasoning,,Medium
+427,What is a hash table?,,,,,,,,,,,Factual QA,,Easy
+428,Write a Python program to check whether a graph is bipartite.,,,,,,,,,,,Coding,,Medium
+429,What is overfitting in machine learning?,,,,,,,,,,,Factual QA,,Easy
+430,Analyze this JavaScript program and identify potential memory leaks.,,,,,,,,,,,Coding,,Hard
+431,Explain how database connection pooling prevents resource exhaustion.,,,,,,,,,,,Explanation,,Medium
+432,Write a Python program to detect a cycle in a linked list.,,,,,,,,,,,Coding,,Medium
+433,Calculate the probability of rolling a sum of 7 with two dice.,,,,,,,,,,,Mathematics,,Medium
+434,What is 116 - 104?,,,,,,,,,,,Mathematics,,Easy
+435,Convert 3 days into hours.,,,,,,,,,,,Mathematics,,Easy
+436,Write a Python function to check whether a list contains a specific value.,,,,,,,,,,,Coding,,Easy
+437,"Translate ""I don't understand."" into Spanish.",,,,,,,,,,,Translation,,Easy
+438,Summarize a regulatory compliance document into key requirements.,,,,,,,,,,,Summarization,,Hard
+439,Design a scalable search engine architecture for an e-commerce catalog.,,,,,,,,,,,Architecture,,Hard
+440,Explain how a publish-subscribe messaging pattern works.,,,,,,,,,,,Explanation,,Medium
+441,What is 125 - 104?,,,,,,,,,,,Mathematics,,Easy
+442,Write a Python program to remove whitespace from a string.,,,,,,,,,,,Coding,,Easy
+443,Write a Python program to convert a binary tree into its mirror image.,,,,,,,,,,,Coding,,Medium
+444,Analyze how retrieval quality affects the accuracy of a RAG-based system.,,,,,,,,,,,AI Analysis,,Hard
+445,"Translate ""How much does this cost?"" into Vietnamese.",,,,,,,,,,,Translation,,Easy
+446,"Translate ""Have a good day"" into Finnish.",,,,,,,,,,,Translation,,Easy
+447,What is 33 multiplied by 59?,,,,,,,,,,,Mathematics,,Easy
+448,Design a simple database schema for a hotel booking system.,,,,,,,,,,,Planning,,Medium
+449,What is a null value?,,,,,,,,,,,Factual QA,,Easy
+450,What is the capital of Estonia?,,,,,,,,,,,Factual QA,,Easy
+451,"Translate ""How are you?"" into Russian.",,,,,,,,,,,Translation,,Easy
+452,Analyze the risks of insecure deserialization in a web application.,,,,,,,,,,,Security,,Hard
+453,Design a scalable architecture for a music streaming service.,,,,,,,,,,,Architecture,,Hard
+454,What is a garbage collector?,,,,,,,,,,,Factual QA,,Easy
+455,Analyze conflicting performance and cost requirements for a cloud migration and propose a resolution.,,,,,,,,,,,Reasoning,,Hard
+456,Design a distributed architecture for a real-time language translation service.,,,,,,,,,,,Architecture,,Hard
+457,What is the capital of Philippines?,,,,,,,,,,,Factual QA,,Easy
+458,Write a Python program to find all prime numbers up to n using the Sieve of Eratosthenes.,,,,,,,,,,,Coding,,Medium
+459,Write a Python program to concatenate two strings.,,,,,,,,,,,Coding,,Easy
+460,Compare eager loading and lazy loading in ORMs.,,,,,,,,,,,Analysis,,Medium
+461,Solve the system 4x+3y=18 and 2x-y=2.,,,,,,,,,,,Mathematics,,Medium
+462,Compare synchronous and asynchronous APIs for a chat application.,,,,,,,,,,,Analysis,,Medium
+463,Extract all names mentioned in this article.,,,,,,,,,,,Extraction,,Easy
+464,Extract all company names mentioned in this press release.,,,,,,,,,,,Extraction,,Easy
+465,What is an object in programming?,,,,,,,,,,,Factual QA,,Easy
+466,Write a Python program to check if a string ends with a given suffix.,,,,,,,,,,,Coding,,Easy
+467,What is 121 - 118?,,,,,,,,,,,Mathematics,,Easy
+468,Analyze how prompt structure affects an LLM's reasoning accuracy.,,,,,,,,,,,AI Analysis,,Hard
+469,Summarize this user manual page in one sentence.,,,,,,,,,,,Summarization,,Hard
+470,What is polymorphism?,,,,,,,,,,,Factual QA,,Easy
+471,Debug a scenario where cached data becomes stale and causes incorrect application behavior.,,,,,,,,,,,Debugging,,Hard
+472,What is a proxy server?,,,,,,,,,,,Factual QA,,Easy
+473,"Translate ""Nice to meet you"" into Turkish.",,,,,,,,,,,Translation,,Easy
+474,"Translate ""Where do you live?"" into French.",,,,,,,,,,,Translation,,Easy
+475,What is the capital of Belgium?,,,,,,,,,,,Factual QA,,Easy
+476,Design an evaluation process for comparing two different RAG pipeline configurations.,,,,,,,,,,,AI Evaluation,,Hard
+477,Write a Python program to check whether a binary tree is balanced.,,,,,,,,,,,Coding,,Medium
+478,Develop a strategy for optimizing network bandwidth usage in a video streaming service.,,,,,,,,,,,Optimization,,Hard
+479,What is a neural network?,,,,,,,,,,,Factual QA,,Easy
+480,What is 38 - 140?,,,,,,,,,,,Mathematics,,Easy
+481,What is a data lake?,,,,,,,,,,,Factual QA,,Easy
+482,Design a fault-tolerant architecture for an online voting system.,,,,,,,,,,,Architecture,,Hard
+483,Explain how idempotency keys work in distributed systems.,,,,,,,,,,,Explanation,,Medium
+484,"Translate ""What is your favorite color?"" into Russian.",,,,,,,,,,,Translation,,Easy
+485,Design an ML pipeline for demand forecasting in a retail business.,,,,,,,,,,,ML,,Hard
+486,Compare cookie-based and token-based session management.,,,,,,,,,,,Analysis,,Medium
+487,What does JSON stand for?,,,,,,,,,,,Factual QA,,Easy
+488,Analyze the security risks of storing secrets in application source code.,,,,,,,,,,,Security,,Hard
+489,Explain the difference between a stack and a heap in memory management.,,,,,,,,,,,Factual QA,,Medium
+490,What is the capital of Malta?,,,,,,,,,,,Factual QA,,Easy
+491,Write a Python program to find all subsets of a given set.,,,,,,,,,,,Coding,,Medium
+492,Design a secure system for managing encryption key rotation.,,,,,,,,,,,Security,,Hard
+493,Develop an algorithm for detecting the strongly connected components of a graph.,,,,,,,,,,,Algorithm,,Hard
+494,Write a Python program to print all even numbers between 1 and 50.,,,,,,,,,,,Coding,,Easy
+495,Explain how a bloom filter works.,,,,,,,,,,,Explanation,,Medium
+496,Design an NLP system for automatically tagging news articles by topic.,,,,,,,,,,,NLP,,Hard
+497,What is the capital of Paraguay?,,,,,,,,,,,Factual QA,,Easy
+498,Explain the difference between a process and a thread.,,,,,,,,,,,Factual QA,,Medium
+499,"Find the eigenvalues of the matrix [[2,0],[0,3]].",,,,,,,,,,,Mathematics,,Medium
+500,"Calculate the correlation coefficient for the dataset (1,2),(2,4),(3,6).",,,,,,,,,,,Mathematics,,Medium
+501,Analyze conflicting stakeholder priorities in a software redesign project and propose a resolution.,,,,,,,,,,,Reasoning,,Hard
+502,Analyze the risks of cross-site scripting vulnerabilities in a web application.,,,,,,,,,,,Security,,Hard
+503,What is a deadlock?,,,,,,,,,,,Factual QA,,Easy
+504,Compare batch processing and stream processing for analytics workloads.,,,,,,,,,,,Analysis,,Medium
+505,Write a Python program to implement Dijkstra's shortest path algorithm.,,,,,,,,,,,Coding,,Hard
+506,Design a scalable architecture for a real-time fraud detection platform.,,,,,,,,,,,Architecture,,Hard
+507,"Find the equation of a circle with center (2,-3) and radius 5.",,,,,,,,,,,Mathematics,,Medium
+508,What is 18 - 17?,,,,,,,,,,,Mathematics,,Easy
+509,"Translate ""Where is the bathroom?"" into Hebrew.",,,,,,,,,,,Translation,,Easy
+510,Explain how vector clocks work in distributed systems.,,,,,,,,,,,Explanation,,Medium
+511,What is the capital of Mexico?,,,,,,,,,,,Factual QA,,Easy
+512,Analyze a C++ program for potential buffer overflow vulnerabilities.,,,,,,,,,,,Coding,,Hard
+513,Write a Python function to check whether a number is divisible by both 3 and 5.,,,,,,,,,,,Coding,,Easy
+514,Design a model evaluation strategy for an imbalanced binary classification problem.,,,,,,,,,,,ML,,Hard
+515,Design a multi-tenant SaaS architecture for enterprise customers.,,,,,,,,,,,Architecture,,Hard
+516,Write a Python program to implement a doubly linked list.,,,,,,,,,,,Coding,,Medium
+517,Design an experiment to measure the effect of context length on LLM answer quality.,,,,,,,,,,,Experimentation,,Hard
+518,What is 108 + 93?,,,,,,,,,,,Mathematics,,Easy
+519,Explain how a virtual DOM improves rendering performance in web frameworks.,,,,,,,,,,,Explanation,,Medium
+520,What is inheritance in programming?,,,,,,,,,,,Factual QA,,Easy
+521,"Translate ""Good luck"" into Spanish.",,,,,,,,,,,Translation,,Easy
+522,What is 149 + 78?,,,,,,,,,,,Mathematics,,Easy
+523,Prove that the Fibonacci sequence grows exponentially using induction.,,,,,,,,,,,Mathematics,,Hard
+524,Write a Python program to merge two dictionaries.,,,,,,,,,,,Coding,,Easy
+525,Compare synchronous replication and asynchronous replication for a distributed database.,,,,,,,,,,,Analysis,,Hard
+526,Analyze why a regression model produces unstable predictions on new data.,,,,,,,,,,,ML,,Hard
+527,Summarize this job posting in two sentences.,,,,,,,,,,,Summarization,,Medium
+528,Analyze why an ML model's performance degrades over time in production.,,,,,,,,,,,ML,,Hard
+529,Design a basic rollout plan for a company-wide software update.,,,,,,,,,,,Planning,,Medium
+530,Design a high-availability architecture for an airline booking system.,,,,,,,,,,,Architecture,,Hard
+531,Explain how database sharding works.,,,,,,,,,,,Explanation,,Medium
+532,Design a scalable architecture for a real-time inventory management system.,,,,,,,,,,,Architecture,,Hard
+533,Explain the difference between a mutable and immutable object.,,,,,,,,,,,Factual QA,,Medium
+534,Explain how circuit breakers work in distributed systems.,,,,,,,,,,,Explanation,,Medium
+535,Design a feature engineering strategy for a fraud detection model.,,,,,,,,,,,ML,,Hard
+536,Write a Python function to multiply two numbers.,,,,,,,,,,,Coding,,Easy
+537,"What is 91 divided by 129, rounded to two decimal places?",,,,,,,,,,,Mathematics,,Easy
+538,Design a scalable architecture for a document collaboration platform.,,,,,,,,,,,Architecture,,Hard
+539,Analyze why a classification model has high accuracy but low recall.,,,,,,,,,,,ML,,Hard
+540,Explain the difference between a linked list and a doubly linked list.,,,,,,,,,,,Factual QA,,Medium
+541,Compare pessimistic and optimistic concurrency control for a booking system.,,,,,,,,,,,Analysis,,Hard
+542,Design a distributed architecture for a real-time bidding advertising platform.,,,,,,,,,,,Architecture,,Hard
+543,Design a distributed rate-limiting system for a public API.,,,,,,,,,,,Architecture,,Hard
+544,"Count how many odd numbers are in [3, 6, 9, 12, 15].",,,,,,,,,,,Mathematics,,Easy
+545,Convert 200 pounds to kilograms.,,,,,,,,,,,Mathematics,,Easy
+546,What is a webhook?,,,,,,,,,,,Factual QA,,Easy
+547,What is a code review?,,,,,,,,,,,Factual QA,,Easy
+548,Develop an optimization strategy for minimizing cloud infrastructure costs.,,,,,,,,,,,Optimization,,Hard
+549,Design an ML pipeline for predicting equipment failure in manufacturing.,,,,,,,,,,,ML,,Hard
+550,Analyze why a web application's response times degrade gradually over several days.,,,,,,,,,,,Debugging,,Hard
+551,Convert 400 seconds into minutes.,,,,,,,,,,,Mathematics,,Easy
+552,What is a token in NLP?,,,,,,,,,,,Factual QA,,Easy
+553,What is the capital of Sri Lanka?,,,,,,,,,,,Factual QA,,Easy
+554,Design an AI-powered document processing pipeline for insurance claims.,,,,,,,,,,,AI Architecture,,Hard
+555,What is the capital of Lebanon?,,,,,,,,,,,Factual QA,,Easy
+556,What is the capital of Nigeria?,,,,,,,,,,,Factual QA,,Easy
+557,What is the capital of Ukraine?,,,,,,,,,,,Factual QA,,Easy
+558,Analyze a dataset of user churn to identify the strongest predictive features.,,,,,,,,,,,Data Analysis,,Hard
+559,What is the capital of Malaysia?,,,,,,,,,,,Factual QA,,Easy
+560,Write a Python program to implement a priority queue using a heap.,,,,,,,,,,,Coding,,Medium
+561,Write a Python program to count the number of vowels in a string.,,,,,,,,,,,Coding,,Easy
+562,Analyze why an API intermittently times out during peak traffic.,,,,,,,,,,,Debugging,,Hard
+563,"Find the equation of the line passing through (1,2) with slope 3.",,,,,,,,,,,Mathematics,,Medium
+564,Explain the difference between vertical and horizontal scaling.,,,,,,,,,,,Factual QA,,Medium
+565,Design a scalable architecture for a video streaming platform.,,,,,,,,,,,Architecture,,Hard
+566,What is 40 multiplied by 23?,,,,,,,,,,,Mathematics,,Easy
+567,What is 89 multiplied by 116?,,,,,,,,,,,Mathematics,,Easy
+568,What is 114 + 43?,,,,,,,,,,,Mathematics,,Easy
+569,Write a Python program to find the factorial of a number.,,,,,,,,,,,Coding,,Easy
+570,What is 150 + 118?,,,,,,,,,,,Mathematics,,Easy
+571,Write a Python program to find the kth largest element in an array.,,,,,,,,,,,Coding,,Medium
+572,Design a highly available architecture for a government citizen services portal.,,,,,,,,,,,Architecture,,Hard
+573,Extract all street addresses from this document.,,,,,,,,,,,Extraction,,Easy
+574,What is 2 - 147?,,,,,,,,,,,Mathematics,,Easy
+575,What is version control?,,,,,,,,,,,Factual QA,,Easy
+576,Explain how a rate limiter works.,,,,,,,,,,,Explanation,,Medium
+577,What is 37 + 112?,,,,,,,,,,,Mathematics,,Easy
+578,What is the capital of Uruguay?,,,,,,,,,,,Factual QA,,Easy
+579,Write a Python program to print all divisors of a number.,,,,,,,,,,,Coding,,Easy
+580,"Translate ""What is your name?"" into Greek.",,,,,,,,,,,Translation,,Easy
+581,Write a Python program to find the shortest path in an unweighted graph.,,,,,,,,,,,Coding,,Medium
+582,Analyze the trade-offs between synchronous and asynchronous message processing.,,,,,,,,,,,Analysis,,Hard
+583,What is the capital of Lithuania?,,,,,,,,,,,Factual QA,,Easy
+584,Extract all percentages mentioned in this report.,,,,,,,,,,,Extraction,,Easy
+585,Write a Python program to find the missing number in a range of integers.,,,,,,,,,,,Coding,,Medium
+586,"Translate ""I am learning Python."" into Japanese.",,,,,,,,,,,Translation,,Easy
+587,Design a resilient architecture for a satellite data ingestion pipeline.,,,,,,,,,,,Architecture,,Hard
+588,What is 40 + 139?,,,,,,,,,,,Mathematics,,Easy
+589,What is 7 - 120?,,,,,,,,,,,Mathematics,,Easy
+590,Summarize a multi-year financial report into an executive summary.,,,,,,,,,,,Summarization,,Hard
+591,Write a Python function to remove a specific character from a string.,,,,,,,,,,,Coding,,Easy
+592,Prove that a heap can be built from an unsorted array in O(n) time.,,,,,,,,,,,Mathematics,,Hard
+593,What is 138 multiplied by 96?,,,,,,,,,,,Mathematics,,Easy
+594,Explain and solve a complex graph traversal problem involving shortest paths.,,,,,,,,,,,Algorithm,,Hard
+595,What is a package manager?,,,,,,,,,,,Factual QA,,Easy
+596,What is 75 - 35?,,,,,,,,,,,Mathematics,,Easy
+597,Develop a disaster recovery plan for a mission-critical application.,,,,,,,,,,,Planning,,Hard
+598,Design an experiment to determine the optimal chunk size for document retrieval.,,,,,,,,,,,Experimentation,,Hard
+599,Convert 15 feet to meters.,,,,,,,,,,,Mathematics,,Easy
+600,Design an ML pipeline for predicting hospital readmission rates.,,,,,,,,,,,ML,,Hard
+601,Explain how a trie data structure works.,,,,,,,,,,,Explanation,,Medium
+602,Summarize this weather report in one sentence.,,,,,,,,,,,Summarization,,Medium
+603,Design a recommendation system for a job matching platform.,,,,,,,,,,,ML,,Hard
+604,Analyze a dataset of website clickstream data to identify user drop-off points.,,,,,,,,,,,Data Analysis,,Hard
+605,Write a Python program to print numbers in reverse from 10 to 1.,,,,,,,,,,,Coding,,Easy
+606,Analyze a dataset of sales transactions to identify seasonal purchasing trends.,,,,,,,,,,,Data Analysis,,Hard
+607,Explain how a load-testing tool measures performance.,,,,,,,,,,,Explanation,,Medium
+608,What is the capital of Ethiopia?,,,,,,,,,,,Factual QA,,Easy
+609,Design a simple database schema for an online course platform.,,,,,,,,,,,Planning,,Medium
+610,Write a function to determine whether a matrix is symmetric.,,,,,,,,,,,Coding,,Medium
+611,Design a fault-tolerant architecture for a supply chain management system.,,,,,,,,,,,Architecture,,Hard
+612,Design a multilingual NLP pipeline for customer support ticket routing.,,,,,,,,,,,NLP,,Hard
+613,Write a Python program to generate a list of squares from 1 to 10.,,,,,,,,,,,Coding,,Easy
+614,Design an ML pipeline for personalizing email marketing campaigns.,,,,,,,,,,,ML,,Hard
+615,Summarize a research paper's methodology in a few sentences.,,,,,,,,,,,Summarization,,Medium
+616,Compare API gateway and service mesh approaches for microservices communication.,,,,,,,,,,,Analysis,,Hard
+617,What is the capital of Switzerland?,,,,,,,,,,,Factual QA,,Easy
+618,What is an if-else statement?,,,,,,,,,,,Factual QA,,Easy
+619,Write a Python program to find the longest common prefix among a list of strings.,,,,,,,,,,,Coding,,Medium
+620,Design a scalable architecture for a food delivery platform.,,,,,,,,,,,Architecture,,Hard
+621,What is 34 - 133?,,,,,,,,,,,Mathematics,,Easy
+622,Write a Python program to implement a trie data structure.,,,,,,,,,,,Coding,,Medium
+623,Design a fault-tolerant architecture for a global payroll processing system.,,,,,,,,,,,Architecture,,Hard
+624,Design a scalable architecture for a subscription-based streaming news service.,,,,,,,,,,,Architecture,,Hard
+625,Design an algorithm for efficiently merging k sorted lists.,,,,,,,,,,,Algorithm,,Hard
+626,What is 145 - 102?,,,,,,,,,,,Mathematics,,Easy
+627,Analyze a Rust program for potential ownership and borrowing issues.,,,,,,,,,,,Coding,,Hard
+628,Design a scalable architecture for a video conferencing application.,,,,,,,,,,,Architecture,,Hard
+629,What is the capital of Slovakia?,,,,,,,,,,,Factual QA,,Easy
+630,Explain how a CDN speeds up content delivery.,,,,,,,,,,,Explanation,,Medium
+631,What is pseudocode?,,,,,,,,,,,Factual QA,,Easy
+632,Write a Python function to find the length of a string without using len().,,,,,,,,,,,Coding,,Easy
+633,Find the sum of the first 20 terms of the arithmetic sequence starting at 3 with a common difference of 5.,,,,,,,,,,,Mathematics,,Medium
+634,Design a fault-tolerant architecture for a telemedicine application.,,,,,,,,,,,Architecture,,Hard
+635,Summarize a lengthy academic thesis while preserving its core arguments.,,,,,,,,,,,Summarization,,Hard
+636,Compare monolithic and serverless deployment for a small startup.,,,,,,,,,,,Analysis,,Medium
+637,Explain how a message queue works.,,,,,,,,,,,Explanation,,Medium
+638,What is multiprocessing?,,,,,,,,,,,Factual QA,,Easy
+639,What is an event loop?,,,,,,,,,,,Factual QA,,Easy
+640,What is 92 + 45?,,,,,,,,,,,Mathematics,,Easy
+641,What is the capital of Myanmar?,,,,,,,,,,,Factual QA,,Easy
+642,Analyze a Go program for potential goroutine leaks.,,,,,,,,,,,Coding,,Hard
+643,Write a Python program to find the minimum of three numbers.,,,,,,,,,,,Coding,,Easy
+644,Summarize this restaurant review in one sentence.,,,,,,,,,,,Summarization,,Medium
+645,Debug a deadlock occurring between two database transactions.,,,,,,,,,,,Coding,,Hard
+646,Write a Python program to check whether a list is sorted.,,,,,,,,,,,Coding,,Easy
+647,What is the capital of New Zealand?,,,,,,,,,,,Factual QA,,Easy
+648,What is the capital of Ghana?,,,,,,,,,,,Factual QA,,Easy
+649,Extract all currency amounts from this invoice.,,,,,,,,,,,Extraction,,Easy
+650,Write a Python program to implement bubble sort.,,,,,,,,,,,Coding,,Medium
+651,Summarize this travel itinerary in one sentence.,,,,,,,,,,,Summarization,,Medium
+652,Design a resilient architecture for a smart home automation platform.,,,,,,,,,,,Architecture,,Hard
+653,Write a Python function to find the average of a list of numbers.,,,,,,,,,,,Coding,,Easy
+654,What is an environment variable?,,,,,,,,,,,Factual QA,,Easy
+655,Design an experiment to measure the impact of prompt engineering on answer accuracy.,,,,,,,,,,,Experimentation,,Hard
+656,What is a for loop?,,,,,,,,,,,Factual QA,,Easy
+657,What is 19 + 25?,,,,,,,,,,,Mathematics,,Easy
+658,Write a Python program to convert a number from decimal to binary.,,,,,,,,,,,Coding,,Easy
+659,Write a Python program to print a pyramid pattern of numbers.,,,,,,,,,,,Coding,,Easy
+660,Explain why a balanced binary search tree guarantees O(log n) operations.,,,,,,,,,,,Reasoning,,Medium
+661,Design an experiment to measure the effect of retrieval-augmented generation on hallucination rates.,,,,,,,,,,,Experimentation,,Hard
+662,Design an algorithm for computing the minimum spanning tree of a large graph.,,,,,,,,,,,Algorithm,,Hard
+663,What is 23 multiplied by 38?,,,,,,,,,,,Mathematics,,Easy
+664,Compare read-through and write-through caching strategies for a database.,,,,,,,,,,,Analysis,,Hard
+665,What is the capital of Serbia?,,,,,,,,,,,Factual QA,,Easy
+666,Write a function to find the majority element in an array.,,,,,,,,,,,Coding,,Medium
+667,Explain how blue-green deployment works.,,,,,,,,,,,Explanation,,Medium
+668,Explain how a binary heap is implemented.,,,,,,,,,,,Explanation,,Medium
+669,Compare containerized and virtual-machine-based deployment.,,,,,,,,,,,Analysis,,Medium
+670,What is continuous integration?,,,,,,,,,,,Factual QA,,Easy
+671,"Translate ""Congratulations"" into Swedish.",,,,,,,,,,,Translation,,Easy
+672,Summarize a podcast transcript into the top three insights.,,,,,,,,,,,Summarization,,Medium
+673,Convert 1000 milligrams to grams.,,,,,,,,,,,Mathematics,,Easy
+674,Explain how consensus algorithms like Raft work in distributed systems.,,,,,,,,,,,Explanation,,Medium
+675,What is the capital of Pakistan?,,,,,,,,,,,Factual QA,,Easy
+676,Develop a migration plan for moving from a relational database to a NoSQL database.,,,,,,,,,,,Planning,,Hard
+677,What is 19 multiplied by 55?,,,,,,,,,,,Mathematics,,Easy
+678,"Translate ""I am from the United States."" into Dutch.",,,,,,,,,,,Translation,,Easy
+679,"Find the product of the elements in [2, 3, 4].",,,,,,,,,,,Mathematics,,Easy
+680,Explain how database indexing speeds up query performance.,,,,,,,,,,,Explanation,,Medium
+681,Design a scalable architecture for a crowdfunding platform.,,,,,,,,,,,Architecture,,Hard
+682,Develop an algorithm for finding the shortest path in a weighted graph with negative edges.,,,,,,,,,,,Algorithm,,Hard
+683,"Translate ""Take care"" into Polish.",,,,,,,,,,,Translation,,Easy
+684,Write a Python program to check if a string starts with a given prefix.,,,,,,,,,,,Coding,,Easy
+685,Design a scalable architecture for a peer-to-peer file sharing application.,,,,,,,,,,,Architecture,,Hard
+686,What is encryption?,,,,,,,,,,,Factual QA,,Easy
+687,What is 58 + 13?,,,,,,,,,,,Mathematics,,Easy
+688,Explain the difference between a primary key and a foreign key.,,,,,,,,,,,Factual QA,,Medium
+689,Develop an algorithm for solving the traveling salesman problem approximately.,,,,,,,,,,,Algorithm,,Hard
+690,What is 129 + 138?,,,,,,,,,,,Mathematics,,Easy
+691,"Translate ""I am hungry"" into Thai.",,,,,,,,,,,Translation,,Easy
+692,Design an indexing strategy for a database with mixed read and write workloads.,,,,,,,,,,,Database,,Hard
+693,Design an ML pipeline for predicting customer churn.,,,,,,,,,,,ML,,Hard
+694,Explain how memoization improves performance.,,,,,,,,,,,Explanation,,Medium
+695,Design an AI system for automatically triaging incoming customer support tickets.,,,,,,,,,,,AI Architecture,,Hard
+696,What is 56 + 11?,,,,,,,,,,,Mathematics,,Easy
+697,What is latency?,,,,,,,,,,,Factual QA,,Easy
+698,What is 69 + 124?,,,,,,,,,,,Mathematics,,Easy
+699,Explain how leader election works in distributed systems.,,,,,,,,,,,Explanation,,Medium
+700,What is a certificate authority?,,,,,,,,,,,Factual QA,,Easy
+701,Write a Python function to check whether a list is empty.,,,,,,,,,,,Coding,,Easy
+702,Develop a strategy for migrating a legacy on-premises system to the cloud.,,,,,,,,,,,Planning,,Hard
+703,Write a Python program to detect the longest palindromic substring in a string.,,,,,,,,,,,Coding,,Hard
+704,What is 144 - 148?,,,,,,,,,,,Mathematics,,Easy
+705,Write a Python program to print the ASCII value of a character.,,,,,,,,,,,Coding,,Easy
+706,Design a hybrid search system combining keyword and semantic retrieval for an LLM.,,,,,,,,,,,AI Architecture,,Hard
+707,Extract all city names from this travel itinerary.,,,,,,,,,,,Extraction,,Easy
+708,Design an A/B test to evaluate whether a new LLM model improves user satisfaction.,,,,,,,,,,,Experimentation,,Hard
+709,Explain how consistent hashing distributes data across nodes.,,,,,,,,,,,Explanation,,Medium
+710,What is 39 + 109?,,,,,,,,,,,Mathematics,,Easy
+711,What is the capital of Jordan?,,,,,,,,,,,Factual QA,,Easy
+712,What is the capital of Jamaica?,,,,,,,,,,,Factual QA,,Easy
+713,Debug a service experiencing cascading failures during a traffic spike.,,,,,,,,,,,Debugging,,Hard
+714,What is middleware?,,,,,,,,,,,Factual QA,,Easy
+715,What is a race condition?,,,,,,,,,,,Factual QA,,Easy
+716,Solve the inequality 2x + 3 > 7.,,,,,,,,,,,Mathematics,,Medium
+717,Explain how two-phase commit works in distributed systems.,,,,,,,,,,,Explanation,,Medium
+718,Extract all abbreviations used in this report.,,,,,,,,,,,Extraction,,Easy
+719,"Calculate the variance of the dataset [2, 4, 4, 4, 5, 5, 7, 9].",,,,,,,,,,,Mathematics,,Medium
+720,Write a Python function to check whether a year is a leap year.,,,,,,,,,,,Coding,,Easy
+721,"Calculate the standard deviation of the dataset [3, 7, 7, 19].",,,,,,,,,,,Mathematics,,Medium
+722,Compare few-shot and zero-shot prompting strategies for a classification task.,,,,,,,,,,,AI Analysis,,Hard
+723,Design a scalable architecture for a logistics and delivery tracking system.,,,,,,,,,,,Architecture,,Hard
+724,What is 17 + 146?,,,,,,,,,,,Mathematics,,Easy
+725,What is 111 multiplied by 82?,,,,,,,,,,,Mathematics,,Easy
+726,Convert 45 degrees Celsius to Fahrenheit.,,,,,,,,,,,Mathematics,,Easy
+727,"Translate ""This food is delicious."" into Korean.",,,,,,,,,,,Translation,,Easy
+728,Write a Python program to create a list of the first n square numbers.,,,,,,,,,,,Coding,,Easy
+729,Summarize this travel brochure in one sentence.,,,,,,,,,,,Summarization,,Medium
+730,What is a subnet?,,,,,,,,,,,Factual QA,,Easy
+731,Design a scoring rubric for evaluating LLM-generated code quality.,,,,,,,,,,,AI Evaluation,,Hard
+732,Design an AI system for automatically generating unit tests from source code.,,,,,,,,,,,AI Architecture,,Hard
+733,Summarize a dense scientific paper into a plain-language explanation for non-experts.,,,,,,,,,,,Summarization,,Hard
+734,Extract all keywords from this job description.,,,,,,,,,,,Extraction,,Easy
+735,Develop a strategy for reducing Docker image build times in a CI pipeline.,,,,,,,,,,,Optimization,,Hard
+736,Explain why greedy algorithms don't always produce an optimal solution.,,,,,,,,,,,Reasoning,,Medium
+737,What is the capital of Tanzania?,,,,,,,,,,,Factual QA,,Easy
+738,Design a scalable architecture for a real-time collaborative whiteboard application.,,,,,,,,,,,Architecture,,Hard
+739,Write a Python program to find the lowest common ancestor in a binary tree.,,,,,,,,,,,Coding,,Medium
+740,Write a Python program to convert a list to a tuple.,,,,,,,,,,,Coding,,Easy
+741,"Write a Python function to check whether a number is positive, negative, or zero.",,,,,,,,,,,Coding,,Easy
+742,Design a resilient architecture for a stock market data feed.,,,,,,,,,,,Architecture,,Hard
+743,Develop a capacity planning strategy for an application expecting seasonal traffic spikes.,,,,,,,,,,,Planning,,Hard
+744,What is a load test?,,,,,,,,,,,Factual QA,,Easy
+745,Design a scalable architecture for an online learning platform.,,,,,,,,,,,Architecture,,Hard
+746,Explain how database transactions ensure atomicity.,,,,,,,,,,,Explanation,,Medium
+747,Explain how OAuth authentication works.,,,,,,,,,,,Explanation,,Medium
+748,Develop a strategy for onboarding a new engineering team onto a complex legacy system.,,,,,,,,,,,Planning,,Hard
+749,Develop a strategy for reducing cold-start latency in a serverless application.,,,,,,,,,,,Optimization,,Hard
+750,Design an LLM-powered assistant for internal engineering documentation search.,,,,,,,,,,,AI Architecture,,Hard
+751,Write a Python function to count the number of words in a sentence.,,,,,,,,,,,Coding,,Easy
+752,Design an algorithm for real-time deduplication of streaming data.,,,,,,,,,,,Algorithm,,Hard
+753,What is the capital of Latvia?,,,,,,,,,,,Factual QA,,Easy
+754,Optimize a database schema suffering from excessive normalization overhead.,,,,,,,,,,,Database,,Hard
+755,Write a Python program to find the sum of digits of a number.,,,,,,,,,,,Coding,,Easy
+756,Design an evaluation methodology for measuring factual accuracy in LLM-generated summaries.,,,,,,,,,,,AI Evaluation,,Hard
+757,Prove that quicksort's average-case time complexity is O(n log n).,,,,,,,,,,,Mathematics,,Hard
+758,"Translate ""What time does the museum close?"" into Spanish.",,,,,,,,,,,Translation,,Easy
+759,What is 216 - 21?,,,,,,,,,,,Mathematics,,Easy
+760,Explain how a circuit breaker prevents cascading failures.,,,,,,,,,,,Explanation,,Medium
+761,What is 109 - 136?,,,,,,,,,,,Mathematics,,Easy
+762,Calculate the future value of a $5000 investment at 4% annual interest compounded monthly for 2 years.,,,,,,,,,,,Mathematics,,Medium
+763,Write a Python function to reverse the words in a sentence.,,,,,,,,,,,Coding,,Easy
+764,A shirt costs $25. What is the total cost of 4 shirts?,,,,,,,,,,,Mathematics,,Easy
+765,Summarize a product launch announcement into two sentences.,,,,,,,,,,,Summarization,,Medium
+766,Analyze why a model's offline evaluation metrics don't match production performance.,,,,,,,,,,,ML,,Hard
+767,What is 70 + 49?,,,,,,,,,,,Mathematics,,Easy
+768,"Translate ""This is a beautiful city."" into Italian.",,,,,,,,,,,Translation,,Easy
+769,Develop a strategy for reducing p99 latency in a read-heavy API.,,,,,,,,,,,Optimization,,Hard
+770,What is chaos engineering?,,,,,,,,,,,Factual QA,,Easy
+771,Compare a message queue and a pub/sub system for decoupling services.,,,,,,,,,,,Analysis,,Medium
+772,"Translate ""Do you speak English?"" into Japanese.",,,,,,,,,,,Translation,,Easy
+773,Prove that Dijkstra's algorithm does not work correctly with negative edge weights.,,,,,,,,,,,Mathematics,,Hard
+774,What is 298 multiplied by 30?,,,,,,,,,,,Mathematics,,Easy
+775,Write a Python program to print all Armstrong numbers between 1 and 1000.,,,,,,,,,,,Coding,,Easy
+776,"Translate ""What is this called in English?"" into Hindi.",,,,,,,,,,,Translation,,Easy
+777,Summarize a lengthy patent filing while preserving its key technical claims.,,,,,,,,,,,Summarization,,Hard
+778,Explain how sharding differs from partitioning.,,,,,,,,,,,Explanation,,Medium
+779,Design a scalable architecture for an ad-serving platform.,,,,,,,,,,,Architecture,,Hard
+780,Summarize this instruction manual page in a single sentence.,,,,,,,,,,,Summarization,,Hard
+781,What is 282 + 69?,,,,,,,,,,,Mathematics,,Easy
+782,What is a REST endpoint?,,,,,,,,,,,Factual QA,,Easy
+783,Write a Python function to compute the nth Fibonacci number iteratively.,,,,,,,,,,,Coding,,Easy
+784,Write a Python program to convert an infix expression to postfix.,,,,,,,,,,,Coding,,Medium
+785,What is 171 + 267?,,,,,,,,,,,Mathematics,,Easy
+786,What is 104 + 211?,,,,,,,,,,,Mathematics,,Easy
+787,What is 34 - 70?,,,,,,,,,,,Mathematics,,Easy
+788,Analyze a Kotlin Android application for potential UI-thread blocking operations.,,,,,,,,,,,Coding,,Hard
+789,Design a scalable architecture for a real-time collaborative code editor.,,,,,,,,,,,Architecture,,Hard
+790,Write a Python program to find the total number of digits in a number.,,,,,,,,,,,Coding,,Easy
+791,What is a staging environment?,,,,,,,,,,,Factual QA,,Easy
+792,What is 260 - 114?,,,,,,,,,,,Mathematics,,Easy
+793,Write a Python program to check whether a list is a palindrome.,,,,,,,,,,,Coding,,Easy
+794,Explain how a distributed hash table routes lookups.,,,,,,,,,,,Explanation,,Medium
+795,What is an observer pattern?,,,,,,,,,,,Factual QA,,Easy
+796,What is refactoring?,,,,,,,,,,,Factual QA,,Easy
+797,Explain how a content-addressed storage system works.,,,,,,,,,,,Explanation,,Medium
+798,"Translate ""I would like a table for two."" into Italian.",,,,,,,,,,,Translation,,Easy
+799,Write a Python program to detect whether a linked list is a palindrome.,,,,,,,,,,,Coding,,Medium
+800,What is the capital of Monaco?,,,,,,,,,,,Factual QA,,Easy
+801,Prove that the greedy algorithm for interval scheduling produces an optimal solution.,,,,,,,,,,,Mathematics,,Hard
+802,What is a checksum used for?,,,,,,,,,,,Factual QA,,Easy
+803,Write a Python function to check whether a string is numeric.,,,,,,,,,,,Coding,,Easy
+804,What is the capital of Maldives?,,,,,,,,,,,Factual QA,,Easy
+805,Summarize a customer feedback survey into three key themes.,,,,,,,,,,,Summarization,,Medium
+806,What is 183 + 214?,,,,,,,,,,,Mathematics,,Easy
+807,Compare white-box and black-box testing approaches.,,,,,,,,,,,Analysis,,Medium
+808,"If a train travels 60 km in 1 hour, how far does it travel in 3 hours?",,,,,,,,,,,Mathematics,,Easy
+809,"If a book has 320 pages and you read 40 pages a day, how many days will it take to finish?",,,,,,,,,,,Mathematics,,Easy
+810,Analyze the trade-offs between synchronous and asynchronous inter-service communication.,,,,,,,,,,,Analysis,,Hard
+811,What is a library in programming?,,,,,,,,,,,Factual QA,,Easy
+812,Explain how optimistic locking prevents conflicting updates.,,,,,,,,,,,Explanation,,Medium
+813,What is 255 + 84?,,,,,,,,,,,Mathematics,,Easy
+814,What is a rollback in deployment?,,,,,,,,,,,Factual QA,,Easy
+815,Explain why a distributed cache needs an eviction policy.,,,,,,,,,,,Reasoning,,Medium
+816,Debug a React application experiencing unnecessary re-renders.,,,,,,,,,,,Coding,,Hard
+817,What is 139 - 68?,,,,,,,,,,,Mathematics,,Easy
+818,Write a Python program to find the maximum subarray sum using Kadane's algorithm.,,,,,,,,,,,Coding,,Medium
+819,What is the capital of San Marino?,,,,,,,,,,,Factual QA,,Easy
+820,What is a build artifact?,,,,,,,,,,,Factual QA,,Easy
+821,Design a simple database schema for a personal budgeting app.,,,,,,,,,,,Planning,,Medium
+822,"Solve the system x+y+z=6, 2x-y+z=3, x+2y-z=2.",,,,,,,,,,,Mathematics,,Medium
+823,Compare instruction-tuned and base LLMs for a customer-facing chatbot.,,,,,,,,,,,AI Analysis,,Hard
+824,"Translate ""Is this seat taken?"" into Vietnamese.",,,,,,,,,,,Translation,,Easy
+825,"Translate ""Can you recommend a good restaurant?"" into Japanese.",,,,,,,,,,,Translation,,Easy
+826,Extract all time durations mentioned in this schedule.,,,,,,,,,,,Extraction,,Easy
+827,"Reverse the list [1, 2, 3, 4, 5].",,,,,,,,,,,Mathematics,,Easy
+828,A car travels 240 km using 20 liters of fuel. What is its fuel efficiency in km per liter?,,,,,,,,,,,Mathematics,,Easy
+829,What is regression testing?,,,,,,,,,,,Factual QA,,Easy
+830,Compare push-based and pull-based data synchronization for offline-first apps.,,,,,,,,,,,Analysis,,Hard
+831,What is 248 + 299?,,,,,,,,,,,Mathematics,,Easy
+832,What is 197 + 73?,,,,,,,,,,,Mathematics,,Easy
+833,Analyze why a Kubernetes deployment experiences pod restarts under moderate load.,,,,,,,,,,,Debugging,,Hard
+834,"Translate ""Where is the nearest hospital?"" into Spanish.",,,,,,,,,,,Translation,,Easy
+835,Analyze why a service's error rate spikes right after every deployment.,,,,,,,,,,,Debugging,,Hard
+836,Solve for x: log base 2 of x equals 5.,,,,,,,,,,,Mathematics,,Medium
+837,What is a stateful service?,,,,,,,,,,,Factual QA,,Easy
+838,What is 218 + 27?,,,,,,,,,,,Mathematics,,Easy
+839,Explain how sticky sessions affect load balancing.,,,,,,,,,,,Explanation,,Medium
+840,"Translate ""What is your job?"" into French.",,,,,,,,,,,Translation,,Easy
+841,Summarize this customer complaint in one sentence.,,,,,,,,,,,Summarization,,Medium
+842,"Find the difference between the largest and smallest values in [5, 12, 3, 20].",,,,,,,,,,,Mathematics,,Easy
+843,"Translate ""I would like to order food."" into Thai.",,,,,,,,,,,Translation,,Easy
+844,Design an algorithm for computing top-k frequent items in a data stream.,,,,,,,,,,,Algorithm,,Hard
+845,What is 247 multiplied by 188?,,,,,,,,,,,Mathematics,,Easy
+846,What is the capital of Honduras?,,,,,,,,,,,Factual QA,,Easy
+847,Write a Python program to implement a simple rate limiter.,,,,,,,,,,,Coding,,Medium
+848,What is a postmortem in software engineering?,,,,,,,,,,,Factual QA,,Easy
+849,Summarize a court case ruling into a plain-language summary.,,,,,,,,,,,Summarization,,Medium
+850,What is the capital of Yemen?,,,,,,,,,,,Factual QA,,Easy
+851,"Translate ""How much is a taxi to the airport?"" into Portuguese.",,,,,,,,,,,Translation,,Easy
+852,Write a Python program to find the number of islands in a 2D grid.,,,,,,,,,,,Coding,,Medium
+853,What is 269 - 118?,,,,,,,,,,,Mathematics,,Easy
+854,Design a cold-start strategy for a recommendation system with new users.,,,,,,,,,,,ML,,Hard
+855,Design a secure secrets management system for a microservices environment.,,,,,,,,,,,Security,,Hard
+856,What is a canary deployment?,,,,,,,,,,,Factual QA,,Easy
+857,Design a named entity recognition system for financial documents.,,,,,,,,,,,NLP,,Hard
+858,What is a service level agreement?,,,,,,,,,,,Factual QA,,Easy
+859,What is 141 + 234?,,,,,,,,,,,Mathematics,,Easy
+860,What is 107 - 299?,,,,,,,,,,,Mathematics,,Easy
+861,Write a Python function to find the second largest number without using max().,,,,,,,,,,,Coding,,Easy
+862,What is a bug tracker?,,,,,,,,,,,Factual QA,,Easy
+863,What is 200 multiplied by 92?,,,,,,,,,,,Mathematics,,Easy
+864,What is 285 + 256?,,,,,,,,,,,Mathematics,,Easy
+865,What is 169 - 83?,,,,,,,,,,,Mathematics,,Easy
+866,Design an LLM-based system for generating structured data from unstructured text.,,,,,,,,,,,AI Architecture,,Hard
+867,What is 116 + 122?,,,,,,,,,,,Mathematics,,Easy
+868,What is the capital of Moldova?,,,,,,,,,,,Factual QA,,Easy
+869,What is the capital of Samoa?,,,,,,,,,,,Factual QA,,Easy
+870,What is 179 - 151?,,,,,,,,,,,Mathematics,,Easy
+871,Explain how a semaphore controls concurrent access.,,,,,,,,,,,Explanation,,Medium
+872,Write a Python function to check whether a list contains only unique elements.,,,,,,,,,,,Coding,,Easy
+873,A rectangular garden is 15 meters long and 8 meters wide. What is its perimeter?,,,,,,,,,,,Mathematics,,Easy
+874,What is a sandbox environment?,,,,,,,,,,,Factual QA,,Easy
+875,What is a load balancer health check?,,,,,,,,,,,Factual QA,,Easy
+876,Explain the difference between optimistic and pessimistic locking.,,,,,,,,,,,Factual QA,,Medium
+877,Design a recommendation system that balances relevance and diversity.,,,,,,,,,,,ML,,Hard
+878,Write a Python program to convert a tuple to a list.,,,,,,,,,,,Coding,,Easy
+879,Explain the difference between authentication and authorization.,,,,,,,,,,,Factual QA,,Medium
+880,What is 87 + 100?,,,,,,,,,,,Mathematics,,Easy
+881,"Translate ""Nice to meet you."" into Hebrew.",,,,,,,,,,,Translation,,Easy
+882,What is the capital of Luxembourg?,,,,,,,,,,,Factual QA,,Easy
+883,What is the capital of Fiji?,,,,,,,,,,,Factual QA,,Easy
+884,Develop a strategy for deprecating a legacy authentication system without downtime.,,,,,,,,,,,Planning,,Hard
+885,What is 260 - 50?,,,,,,,,,,,Mathematics,,Easy
+886,Analyze a Python data pipeline for potential bottlenecks under high throughput.,,,,,,,,,,,Coding,,Hard
+887,What is the capital of Namibia?,,,,,,,,,,,Factual QA,,Easy
+888,Design an experiment to test whether shorter prompts reduce LLM latency without hurting quality.,,,,,,,,,,,Experimentation,,Hard
+889,"Find the angle between two vectors (3,4) and (4,3).",,,,,,,,,,,Mathematics,,Medium
+890,"Translate ""I need to charge my phone."" into French.",,,,,,,,,,,Translation,,Easy
+891,What is a framework in programming?,,,,,,,,,,,Factual QA,,Easy
+892,What is 160 + 280?,,,,,,,,,,,Mathematics,,Easy
+893,Develop a strategy for consolidating multiple regional databases into one global database.,,,,,,,,,,,Planning,,Hard
+894,What is 130 - 271?,,,,,,,,,,,Mathematics,,Easy
+895,Write a Python program to print a diamond pattern of stars.,,,,,,,,,,,Coding,,Easy
+896,What is 240 - 88?,,,,,,,,,,,Mathematics,,Easy
+897,"If a recipe needs 2 cups of flour for 6 servings, how much flour is needed for 12 servings?",,,,,,,,,,,Mathematics,,Easy
+898,Write a Python program to compute run-length encoding of a string.,,,,,,,,,,,Coding,,Medium
+899,What is 86 - 153?,,,,,,,,,,,Mathematics,,Easy
+900,Convert 8 feet to inches.,,,,,,,,,,,Mathematics,,Easy
+901,"Find how many numbers in [4, 15, 22, 8, 30] are greater than 10.",,,,,,,,,,,Mathematics,,Easy
+902,Design a scalable architecture for a real-time translation service for video calls.,,,,,,,,,,,Architecture,,Hard
+903,Write a Python program to implement a simple event emitter.,,,,,,,,,,,Coding,,Medium
+904,Develop a strategy for reducing tail latency in a distributed request pipeline.,,,,,,,,,,,Optimization,,Hard
+905,What is the capital of Andorra?,,,,,,,,,,,Factual QA,,Easy
+906,What is a service level objective?,,,,,,,,,,,Factual QA,,Easy
+907,What is the capital of Brunei?,,,,,,,,,,,Factual QA,,Easy
+908,What is a feature flag?,,,,,,,,,,,Factual QA,,Easy
+909,What is the capital of Bahamas?,,,,,,,,,,,Factual QA,,Easy
+910,Analyze a distributed job worker for potential duplicate task execution.,,,,,,,,,,,Coding,,Hard
+911,Write a Python program to check whether a list contains duplicate elements.,,,,,,,,,,,Coding,,Easy
+912,What is a CLI tool?,,,,,,,,,,,Factual QA,,Easy
+913,Write a Python program to find the position of the first vowel in a string.,,,,,,,,,,,Coding,,Easy
+914,Design an ML pipeline for predicting customer lifetime value.,,,,,,,,,,,ML,,Hard
+915,"Translate ""I would like a coffee."" into German.",,,,,,,,,,,Translation,,Easy
+916,What is open-source software?,,,,,,,,,,,Factual QA,,Easy
+917,What is 122 + 181?,,,,,,,,,,,Mathematics,,Easy
+918,Explain how blue-green deployment minimizes downtime.,,,,,,,,,,,Explanation,,Medium
+919,"Translate ""I am allergic to nuts."" into Turkish.",,,,,,,,,,,Translation,,Easy
+920,Write a Python program to find the longest increasing subsequence in an array.,,,,,,,,,,,Coding,,Medium
+921,What is 284 - 139?,,,,,,,,,,,Mathematics,,Easy
+922,What is 187 multiplied by 240?,,,,,,,,,,,Mathematics,,Easy
+923,Explain how a producer-consumer pattern works.,,,,,,,,,,,Explanation,,Medium
+924,What is horizontal pod autoscaling?,,,,,,,,,,,Factual QA,,Easy
+925,What is a package repository?,,,,,,,,,,,Factual QA,,Easy
+926,Explain how connection multiplexing works in HTTP/2.,,,,,,,,,,,Explanation,,Medium
+927,What is the capital of Turkmenistan?,,,,,,,,,,,Factual QA,,Easy
+928,What is 239 multiplied by 145?,,,,,,,,,,,Mathematics,,Easy
+929,Write a Python program to check whether a number is a multiple of another.,,,,,,,,,,,Coding,,Easy
+930,"Translate ""What is the weather like today?"" into Swedish.",,,,,,,,,,,Translation,,Easy
+931,Design a resilient architecture for a global supply chain tracking system.,,,,,,,,,,,Architecture,,Hard
+932,Optimize a database schema experiencing lock contention under concurrent writes.,,,,,,,,,,,Database,,Hard
+933,Convert 2 metric tons to kilograms.,,,,,,,,,,,Mathematics,,Easy
+934,Write a Python program to implement a basic finite state machine.,,,,,,,,,,,Coding,,Medium
+935,What is a GUI?,,,,,,,,,,,Factual QA,,Easy
+936,What is the capital of Trinidad and Tobago?,,,,,,,,,,,Factual QA,,Easy
+937,What is 271 multiplied by 259?,,,,,,,,,,,Mathematics,,Easy
+938,"Translate ""Is breakfast included?"" into Dutch.",,,,,,,,,,,Translation,,Easy
+939,Design a scalable architecture for a real-time price comparison engine.,,,,,,,,,,,Architecture,,Hard
+940,What is 300 multiplied by 86?,,,,,,,,,,,Mathematics,,Easy
+941,Summarize this social media post in one sentence.,,,,,,,,,,,Summarization,,Medium
+942,What is 40 - 298?,,,,,,,,,,,Mathematics,,Easy
+943,What is mean time to recovery?,,,,,,,,,,,Factual QA,,Easy
+944,What is a dependency in software?,,,,,,,,,,,Factual QA,,Easy
+945,Write a Python program to find all anagram groups in a list of words.,,,,,,,,,,,Coding,,Medium
+946,Explain how a publish-subscribe system decouples services.,,,,,,,,,,,Explanation,,Medium
+947,"What is 300 divided by 57, rounded to two decimal places?",,,,,,,,,,,Mathematics,,Easy
+948,What is 9 + 163?,,,,,,,,,,,Mathematics,,Easy
+949,What is 188 - 82?,,,,,,,,,,,Mathematics,,Easy
+950,Design a fault-tolerant architecture for a subscription billing system.,,,,,,,,,,,Architecture,,Hard
+951,What is a stateless service?,,,,,,,,,,,Factual QA,,Easy
+952,Write a Python program to find the sum of the first n natural numbers.,,,,,,,,,,,Coding,,Easy
+953,What is 130 - 170?,,,,,,,,,,,Mathematics,,Easy
+954,What is the capital of Uzbekistan?,,,,,,,,,,,Factual QA,,Easy
+955,What is 180 - 215?,,,,,,,,,,,Mathematics,,Easy
+956,What is the capital of Papua New Guinea?,,,,,,,,,,,Factual QA,,Easy
+957,What is 271 - 113?,,,,,,,,,,,Mathematics,,Easy
+958,What is 106 - 22?,,,,,,,,,,,Mathematics,,Easy
+959,"Translate ""What time does it open?"" into Korean.",,,,,,,,,,,Translation,,Easy
+960,Compare sharded and replicated database architectures for write-heavy workloads.,,,,,,,,,,,Analysis,,Hard
+961,What is the capital of Iraq?,,,,,,,,,,,Factual QA,,Easy
+962,What is 116 - 261?,,,,,,,,,,,Mathematics,,Easy
+963,Analyze a dataset of infrastructure costs to identify the largest cost drivers.,,,,,,,,,,,Data Analysis,,Hard
+964,What is 184 + 235?,,,,,,,,,,,Mathematics,,Easy
+965,What is 98 - 224?,,,,,,,,,,,Mathematics,,Easy
+966,Explain how a service discovery mechanism works.,,,,,,,,,,,Explanation,,Medium
+967,Write a Python function to check whether a number is within a given range.,,,,,,,,,,,Coding,,Easy
+968,Explain why a min-heap is more efficient than sorting for finding the k smallest elements.,,,,,,,,,,,Reasoning,,Medium
+969,What is 280 + 195?,,,,,,,,,,,Mathematics,,Easy
+970,What is 122 - 239?,,,,,,,,,,,Mathematics,,Easy
+971,What is the capital of Belarus?,,,,,,,,,,,Factual QA,,Easy
+972,Compare thread-based and process-based concurrency models.,,,,,,,,,,,Analysis,,Medium
+973,Extract all IP addresses mentioned in this log file.,,,,,,,,,,,Extraction,,Easy
+974,What is structured logging?,,,,,,,,,,,Factual QA,,Easy
+975,What is pair programming?,,,,,,,,,,,Factual QA,,Easy
+976,What is a rolling deployment?,,,,,,,,,,,Factual QA,,Easy
+977,What is 16 + 95?,,,,,,,,,,,Mathematics,,Easy
+978,Explain the difference between a monolith and a modular monolith.,,,,,,,,,,,Factual QA,,Medium
+979,What is 117 multiplied by 57?,,,,,,,,,,,Mathematics,,Easy
+980,What is a blue-green deployment?,,,,,,,,,,,Factual QA,,Easy
+981,What is a compiler warning?,,,,,,,,,,,Factual QA,,Easy
+982,Design a resilient architecture for a decentralized identity verification system.,,,,,,,,,,,Architecture,,Hard
+983,What is 53 multiplied by 255?,,,,,,,,,,,Mathematics,,Easy
+984,Summarize a 700-word technical blog post into a short abstract.,,,,,,,,,,,Summarization,,Medium
+985,What is a code smell?,,,,,,,,,,,Factual QA,,Easy
+986,"If 3 workers can build a wall in 12 days, how many days will 6 workers take?",,,,,,,,,,,Mathematics,,Easy
+987,What is the capital of Vatican City?,,,,,,,,,,,Factual QA,,Easy
+988,What is a stub in testing?,,,,,,,,,,,Factual QA,,Easy
+989,"Translate ""I lost my passport."" into Russian.",,,,,,,,,,,Translation,,Easy
+990,"Translate ""I would like to book a table."" into Arabic.",,,,,,,,,,,Translation,,Easy
+991,What is 59 + 209?,,,,,,,,,,,Mathematics,,Easy
+992,Prove that a complete binary tree with n nodes has height O(log n).,,,,,,,,,,,Mathematics,,Hard
+993,What is 267 + 201?,,,,,,,,,,,Mathematics,,Easy
+994,Design a strategy for handling hot partitions in a sharded database.,,,,,,,,,,,Database,,Hard
+995,What is the capital of Bhutan?,,,,,,,,,,,Factual QA,,Easy
+996,Summarize a multi-chapter technical manual into a concise reference guide.,,,,,,,,,,,Summarization,,Hard
+997,Design an evaluation framework for measuring an LLM's ability to follow complex instructions.,,,,,,,,,,,AI Evaluation,,Hard
+998,Write a Python function to trim leading and trailing spaces from a string.,,,,,,,,,,,Coding,,Easy
+999,Design a simple database schema for a gym membership system.,,,,,,,,,,,Planning,,Medium
+1000,Explain the trade-offs between centralized and decentralized system governance.,,,,,,,,,,,Reasoning,,Hard
+1001,What is 73 - 169?,,,,,,,,,,,Mathematics,,Easy
+1002,"Translate ""How far is the train station?"" into Finnish.",,,,,,,,,,,Translation,,Easy
+1003,Analyze the time complexity of the QuickSelect algorithm.,,,,,,,,,,,Mathematics,,Hard
+1004,Analyze the risks of using long-lived API keys instead of short-lived tokens.,,,,,,,,,,,Security,,Hard
+1005,What is 35 multiplied by 261?,,,,,,,,,,,Mathematics,,Easy
+1006,Design an NLP pipeline for automatically generating meeting summaries from transcripts.,,,,,,,,,,,NLP,,Hard
+1007,Design a scalable architecture for a warehouse robotics coordination system.,,,,,,,,,,,Architecture,,Hard
+1008,What is the capital of Kyrgyzstan?,,,,,,,,,,,Factual QA,,Easy
+1009,What is 84 multiplied by 46?,,,,,,,,,,,Mathematics,,Easy
+1010,"Translate ""I am looking for a hotel."" into Portuguese.",,,,,,,,,,,Translation,,Easy
+1011,Compare eager and lazy evaluation strategies in programming languages.,,,,,,,,,,,Analysis,,Medium
+1012,What is the capital of Haiti?,,,,,,,,,,,Factual QA,,Easy
+1013,Write a Python program to remove duplicate characters from a string.,,,,,,,,,,,Coding,,Easy
+1014,What is a webhook payload?,,,,,,,,,,,Factual QA,,Easy
+1015,Design a fault-tolerant architecture for a healthcare telemetry monitoring system.,,,,,,,,,,,Architecture,,Hard
+1016,What is a syntax highlighter?,,,,,,,,,,,Factual QA,,Easy
+1017,"Find the sum of the geometric series 2, 6, 18, 54 up to 5 terms.",,,,,,,,,,,Mathematics,,Medium
+1018,Design an AI pipeline for detecting anomalies in system logs using an LLM.,,,,,,,,,,,AI Architecture,,Hard
+1019,Analyze conflicting priorities between rapid feature delivery and system reliability.,,,,,,,,,,,Reasoning,,Hard
+1020,What is the capital of El Salvador?,,,,,,,,,,,Factual QA,,Easy
+1021,What is 212 + 31?,,,,,,,,,,,Mathematics,,Easy
+1022,What is the capital of Afghanistan?,,,,,,,,,,,Factual QA,,Easy
+1023,What is a smoke test?,,,,,,,,,,,Factual QA,,Easy
+1024,Analyze how chunking strategy affects retrieval quality in a RAG system.,,,,,,,,,,,AI Analysis,,Hard
+1025,Explain how a saga pattern manages distributed transactions.,,,,,,,,,,,Explanation,,Medium
+1026,Explain how a mutex prevents race conditions.,,,,,,,,,,,Explanation,,Medium
+1027,"Translate ""I am visiting for the first time."" into Korean.",,,,,,,,,,,Translation,,Easy
+1028,Design an ML pipeline for detecting bot accounts on a social platform.,,,,,,,,,,,ML,,Hard
+1029,Design a fault-tolerant architecture for a global DNS service.,,,,,,,,,,,Architecture,,Hard
+1030,Design a scalable architecture for an online auction platform.,,,,,,,,,,,Architecture,,Hard
+1031,What is the capital of Ivory Coast?,,,,,,,,,,,Factual QA,,Easy
+1032,Convert 100 kilometers per hour to meters per second.,,,,,,,,,,,Mathematics,,Easy
+1033,Write a Python program to implement a basic key-value store with expiry.,,,,,,,,,,,Coding,,Medium
+1034,What is 132 + 18?,,,,,,,,,,,Mathematics,,Easy
+1035,What is 110 + 278?,,,,,,,,,,,Mathematics,,Easy
+1036,What is a factory pattern?,,,,,,,,,,,Factual QA,,Easy
+1037,Compare in-memory and on-disk databases for a low-latency application.,,,,,,,,,,,Analysis,,Medium
+1038,What is 292 + 111?,,,,,,,,,,,Mathematics,,Easy
+1039,Design an algorithm for efficiently detecting near-duplicate documents using similarity hashing.,,,,,,,,,,,Algorithm,,Hard
+1040,Explain how feature toggles enable safe rollouts.,,,,,,,,,,,Explanation,,Medium
+1041,Calculate the probability of drawing a red card from a standard deck.,,,,,,,,,,,Mathematics,,Medium
+1042,What is the capital of Azerbaijan?,,,,,,,,,,,Factual QA,,Easy
+1043,What is an integration test?,,,,,,,,,,,Factual QA,,Easy
+1044,What is a changelog?,,,,,,,,,,,Factual QA,,Easy
+1045,Explain how a leader-follower replication model works in databases.,,,,,,,,,,,Explanation,,Medium
+1046,Design a distributed architecture for a real-time weather forecasting service.,,,,,,,,,,,Architecture,,Hard
+1047,Write a Python program to generate a list of odd numbers from 1 to 50.,,,,,,,,,,,Coding,,Easy
+1048,Write a Python program to check whether two lists have any common elements.,,,,,,,,,,,Coding,,Easy
+1049,What is 70 multiplied by 91?,,,,,,,,,,,Mathematics,,Easy
+1050,Write a Python program to find all common elements between two lists.,,,,,,,,,,,Coding,,Easy
+1051,What is 29 - 180?,,,,,,,,,,,Mathematics,,Easy
+1052,Design a highly available architecture for a customer identity management system.,,,,,,,,,,,Architecture,,Hard
+1053,Explain how denormalization improves read performance.,,,,,,,,,,,Explanation,,Medium
+1054,Explain the difference between a data warehouse and a data lake.,,,,,,,,,,,Factual QA,,Medium
+1055,What is the capital of Sudan?,,,,,,,,,,,Factual QA,,Easy
+1056,Develop a rollout plan for a breaking API version change across external clients.,,,,,,,,,,,Planning,,Hard
+1057,What is 163 + 2?,,,,,,,,,,,Mathematics,,Easy
+1058,What is the capital of Libya?,,,,,,,,,,,Factual QA,,Easy
+1059,What is a production environment?,,,,,,,,,,,Factual QA,,Easy
+1060,Debug a scenario where a distributed lock fails to release properly.,,,,,,,,,,,Debugging,,Hard
+1061,What is 160 - 148?,,,,,,,,,,,Mathematics,,Easy
+1062,What is 178 + 104?,,,,,,,,,,,Mathematics,,Easy
+1063,What is 135 + 268?,,,,,,,,,,,Mathematics,,Easy
+1064,Write a Python program to check whether a number is a perfect number.,,,,,,,,,,,Coding,,Easy
+1065,What is 282 - 122?,,,,,,,,,,,Mathematics,,Easy
+1066,What is a code linter?,,,,,,,,,,,Factual QA,,Easy
+1067,What is 214 multiplied by 104?,,,,,,,,,,,Mathematics,,Easy
+1068,Explain how a health check keeps a service reliable.,,,,,,,,,,,Explanation,,Medium
+1069,What is 267 multiplied by 66?,,,,,,,,,,,Mathematics,,Easy
+1070,What is the capital of Belize?,,,,,,,,,,,Factual QA,,Easy
+1071,What is an alerting threshold?,,,,,,,,,,,Factual QA,,Easy
+1072,Explain how a B-tree index works in a database.,,,,,,,,,,,Explanation,,Medium
+1073,Develop an optimization strategy for reducing the memory footprint of a large in-memory cache.,,,,,,,,,,,Optimization,,Hard
+1074,Write a Python function to find the difference between two lists.,,,,,,,,,,,Coding,,Easy
+1075,What is 53 + 218?,,,,,,,,,,,Mathematics,,Easy
+1076,Develop an algorithm for load-balancing tasks across heterogeneous worker nodes.,,,,,,,,,,,Algorithm,,Hard
+1077,Convert 1 acre to square meters.,,,,,,,,,,,Mathematics,,Easy
+1078,What is 178 + 79?,,,,,,,,,,,Mathematics,,Easy
+1079,Explain how graceful degradation keeps a system partially functional during failures.,,,,,,,,,,,Explanation,,Medium
+1080,What is the capital of Kazakhstan?,,,,,,,,,,,Factual QA,,Easy
+1081,What is 7 + 263?,,,,,,,,,,,Mathematics,,Easy
+1082,Design an AI-powered onboarding assistant for new software engineers.,,,,,,,,,,,AI Architecture,,Hard
+1083,Explain how database normalization reduces redundancy.,,,,,,,,,,,Explanation,,Medium
+1084,What is the capital of Liechtenstein?,,,,,,,,,,,Factual QA,,Easy
+1085,What is a binary number system?,,,,,,,,,,,Factual QA,,Easy
+1086,Write a Python program to implement a simple pub/sub system using classes.,,,,,,,,,,,Coding,,Medium
+1087,What is a hotfix?,,,,,,,,,,,Factual QA,,Easy
+1088,Design a basic rollout plan for switching a team's project management tool.,,,,,,,,,,,Planning,,Medium
+1089,Analyze a dataset of A/B test results to determine statistical significance.,,,,,,,,,,,Data Analysis,,Hard
+1090,What is on-call rotation?,,,,,,,,,,,Factual QA,,Easy
+1091,A tank holds 500 liters and is filled at 25 liters per minute. How long will it take to fill?,,,,,,,,,,,Mathematics,,Easy
+1092,"Find the determinant of the matrix [[3,1],[2,4]].",,,,,,,,,,,Mathematics,,Medium
+1093,Design a red-teaming process for identifying failure modes in an LLM application.,,,,,,,,,,,AI Evaluation,,Hard
+1094,What is 221 - 279?,,,,,,,,,,,Mathematics,,Easy
+1095,What is the capital of Botswana?,,,,,,,,,,,Factual QA,,Easy
+1096,What is a mock object in testing?,,,,,,,,,,,Factual QA,,Easy
+1097,Summarize this conference talk abstract in one sentence.,,,,,,,,,,,Summarization,,Medium
+1098,Calculate the compound interest on $1000 at 5% annual rate for 3 years.,,,,,,,,,,,Mathematics,,Medium
+1099,What is the capital of Dominican Republic?,,,,,,,,,,,Factual QA,,Easy
+1100,"Translate ""Where can I buy tickets?"" into Polish.",,,,,,,,,,,Translation,,Easy
+1101,What is 205 + 146?,,,,,,,,,,,Mathematics,,Easy
+1102,Explain why database transactions use isolation levels.,,,,,,,,,,,Reasoning,,Medium
+1103,Design an AI system for automatically categorizing and routing support emails.,,,,,,,,,,,AI Architecture,,Hard
+1104,Design a resilient architecture for a financial risk analysis platform.,,,,,,,,,,,Architecture,,Hard
+1105,What is 65 - 53?,,,,,,,,,,,Mathematics,,Easy
+1106,"Translate ""I need help."" into Greek.",,,,,,,,,,,Translation,,Easy
+1107,What is a metrics dashboard?,,,,,,,,,,,Factual QA,,Easy
+1108,"Translate ""Where can I exchange currency?"" into Arabic.",,,,,,,,,,,Translation,,Easy
+1109,Design a distributed architecture for a real-time energy grid monitoring system.,,,,,,,,,,,Architecture,,Hard
+1110,What is a decorator pattern?,,,,,,,,,,,Factual QA,,Easy
+1111,Write a Python function to count the number of uppercase letters in a string.,,,,,,,,,,,Coding,,Easy
+1112,What is an SDK?,,,,,,,,,,,Factual QA,,Easy
+1113,Explain how a Merkle tree verifies data integrity.,,,,,,,,,,,Explanation,,Medium
+1114,What is 298 + 157?,,,,,,,,,,,Mathematics,,Easy
+1115,What is technical onboarding?,,,,,,,,,,,Factual QA,,Easy
+1116,What is a unit test?,,,,,,,,,,,Factual QA,,Easy
+1117,Design a fault-tolerant architecture for an automated trading bot platform.,,,,,,,,,,,Architecture,,Hard
+1118,Explain the difference between symmetric and asymmetric encryption.,,,,,,,,,,,Factual QA,,Medium
+1119,What is the capital of Mozambique?,,,,,,,,,,,Factual QA,,Easy
+1120,Write a Python function to capitalize the first letter of each word in a sentence.,,,,,,,,,,,Coding,,Easy
+1121,Explain how exponential backoff works in retry logic.,,,,,,,,,,,Explanation,,Medium
+1122,"Translate ""This is delicious."" into German.",,,,,,,,,,,Translation,,Easy
+1123,Design a feature store architecture for serving real-time ML predictions.,,,,,,,,,,,ML,,Hard
+1124,Explain how a write-ahead log ensures durability.,,,,,,,,,,,Explanation,,Medium
+1125,"Translate ""I am tired."" into Dutch.",,,,,,,,,,,Translation,,Easy
+1126,"Translate ""How do I get to the airport?"" into Russian.",,,,,,,,,,,Translation,,Easy
+1127,What is 110 - 293?,,,,,,,,,,,Mathematics,,Easy
+1128,What is 64 - 145?,,,,,,,,,,,Mathematics,,Easy
+1129,What is the capital of Cameroon?,,,,,,,,,,,Factual QA,,Easy
+1130,Extract all book titles mentioned in this review.,,,,,,,,,,,Extraction,,Easy
+1131,What is dependency injection?,,,,,,,,,,,Factual QA,,Easy
+1132,What is distributed tracing?,,,,,,,,,,,Factual QA,,Easy
+1133,What is 111 + 239?,,,,,,,,,,,Mathematics,,Easy
+1134,"Translate ""Can I have the bill, please?"" into Chinese.",,,,,,,,,,,Translation,,Easy
+1135,What is an idempotent operation?,,,,,,,,,,,Factual QA,,Easy
+1136,Design a scalable architecture for a peer-to-peer video calling application.,,,,,,,,,,,Architecture,,Hard
+1137,What is 295 + 90?,,,,,,,,,,,Mathematics,,Easy
+1138,Analyze conflicting requirements between low latency and strong data consistency.,,,,,,,,,,,Reasoning,,Hard
+1139,Analyze the trade-offs between using a shared database and database-per-service in microservices.,,,,,,,,,,,Analysis,,Hard
+1140,What is 133 - 113?,,,,,,,,,,,Mathematics,,Easy
+1141,What is the capital of Suriname?,,,,,,,,,,,Factual QA,,Easy
+1142,Design a scalable architecture for a large-scale email marketing platform.,,,,,,,,,,,Architecture,,Hard
+1143,What is observability?,,,,,,,,,,,Factual QA,,Easy
+1144,Compare snapshot isolation and serializable isolation in databases.,,,,,,,,,,,Analysis,,Medium
+1145,Design a scalable architecture for a crowdsourced navigation app.,,,,,,,,,,,Architecture,,Hard
+1146,What is 270 + 225?,,,,,,,,,,,Mathematics,,Easy
+1147,What is 241 + 295?,,,,,,,,,,,Mathematics,,Easy
+1148,What is 273 - 217?,,,,,,,,,,,Mathematics,,Easy
+1149,Develop an algorithm for optimal bin packing given a set of item sizes.,,,,,,,,,,,Algorithm,,Hard
+1150,What is a singleton pattern?,,,,,,,,,,,Factual QA,,Easy
+1151,Explain how API versioning strategies help maintain backward compatibility.,,,,,,,,,,,Explanation,,Medium
+1152,Debug a producer-consumer implementation experiencing occasional data loss.,,,,,,,,,,,Coding,,Hard
+1153,What is the capital of Barbados?,,,,,,,,,,,Factual QA,,Easy
+1154,Explain how a bulkhead pattern isolates failures in a system.,,,,,,,,,,,Explanation,,Medium
+1155,Design a strategy for detecting and mitigating credential-stuffing attacks.,,,,,,,,,,,Security,,Hard
+1156,What is 70 - 163?,,,,,,,,,,,Mathematics,,Easy
+1157,What is 101 + 241?,,,,,,,,,,,Mathematics,,Easy
+1158,What is the capital of Guatemala?,,,,,,,,,,,Factual QA,,Easy
+1159,Design an intrusion detection strategy for a cloud-based application.,,,,,,,,,,,Security,,Hard
+1160,What is a software license?,,,,,,,,,,,Factual QA,,Easy
+1161,What is test coverage?,,,,,,,,,,,Factual QA,,Easy
+1162,Explain the difference between horizontal and vertical partitioning.,,,,,,,,,,,Factual QA,,Medium

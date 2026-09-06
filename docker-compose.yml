@@ -1,0 +1,38 @@
+services:
+  gateway:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: adbon-gateway:local
+    env_file:
+      - .env
+    environment:
+      # Override this in .env only if Ollama is reachable at another address.
+      OLLAMA_BASE_URL: ${OLLAMA_BASE_URL:-http://host.docker.internal:11434}
+      HF_HOME: /app/.cache/huggingface
+      TRANSFORMERS_CACHE: /app/.cache/huggingface/hub
+      PORT: "8000"
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./models/saved_router:/app/models/saved_router:ro
+      # Both are mounted because older gateway code reads the root cache while
+      # the active v4 API prefers data/cache/semantic_cache.json.
+      - ./semantic_cache.json:/app/semantic_cache.json
+      - ./semantic_cache.json:/app/data/cache/semantic_cache.json
+      - ./logs:/app/logs
+      - hf_cache:/app/.cache/huggingface
+    # Docker Desktop supplies this name on Windows/macOS.  This mapping makes
+    # the same hostname resolve on modern Linux Docker Engine installations.
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "--silent", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+    restart: unless-stopped
+
+volumes:
+  hf_cache:

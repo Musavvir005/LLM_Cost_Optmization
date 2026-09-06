@@ -1,0 +1,21 @@
+# Python & Environment
+.env
+.env.local
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# Dependencies & Virtualenvs
+.adbon-verify/
+node_modules/
+dist/
+
+# Cache data & runtime files
+benchmark_semantic_cache.json
+benchmark_api_cache.json
+/semantic_cache.json
+
+# Temporary uploads (keep directory structure)
+uploads/*
+!uploads/.gitkeep
